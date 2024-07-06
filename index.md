@@ -1,10 +1,6 @@
-<head>
-  <img>
-<a href ="https://i.sstatic.net/kx8MT.gif"></a>
-  </img>
-</head>
-</head>
+
 <body>
+$PLACEHOLDER$<body style="background-image: url('./starts.gif');">
   <h1><strong>Welcome to my website!</strong></h1>
   <br />
   <ul>
