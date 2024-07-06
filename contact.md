@@ -1,7 +1,3 @@
-<head>
-  <title>Contact Info</title>
-</head>
-
 <body>
   <h1><strong>Where Can You Reach Me?</strong></h1>
   <br /><br />

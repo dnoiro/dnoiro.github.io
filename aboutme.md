@@ -1,7 +1,3 @@
-<head>
-    <title>About Me</title>
-</head>
-
 <body>
     <h1><strong>Who Am I?</strong></h1>
     <br /><br />
