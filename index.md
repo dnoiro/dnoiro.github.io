@@ -7,10 +7,10 @@
 </style>
 
 # Welcome to my website!
-
-<a href="./contact.md" style="color: white;">Contact Info</a>
-- [About Me](./aboutme.html)
-
+<ul>
+<li><a href="./contact.md" style="color: white;">Contact Info</a></li>
+<li><a href="./aboutme.md" style="color: white;">Contact Info</a></li>
+</ul>
 I'm in the process of creating my website :)
 
 <!-- make the background a gif of stars-->
