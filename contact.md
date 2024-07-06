@@ -1,4 +1,3 @@
-<body>
   <h1><strong>Where Can You Reach Me?</strong></h1>
   <br /><br />
   <p>
@@ -7,4 +6,3 @@
     I'm still in college, so you will also be able to reach me at:
     <a href="mailto:dpachec@g.clemson.edu">dpachec@g.clemson.edu</a>
   </p>
-</body>
