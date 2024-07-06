@@ -1,7 +1,5 @@
-<html>
-
 <head>
-  <title>Daniel Site</title>
+  <title>Daniel's Site</title>
 </head>
 
 <body>
@@ -13,5 +11,3 @@
   </ul>
   <p>I'm in the process of creating my website :)</p>
 </body>
-
-</html>
