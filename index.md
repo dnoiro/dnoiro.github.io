@@ -16,7 +16,6 @@ I'm in the process of creating my website :)
 <!-- make the background a gif of stars-->
 <style>
   body {
-    background-image: url('matrix_wallpaper.jpg');
-    color: red;
+    background-image: url('matrix2.gif');
   }
 </style>
