@@ -1,7 +1,3 @@
-<head>
-  <title>Daniel's Site</title>
-</head>
-
 <body>
   <h1><strong>Welcome to my website!</strong></h1>
   <br />
