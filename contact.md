@@ -1,5 +1,4 @@
-  <h1><strong>Where Can You Reach Me?</strong></h1>
-  <br /><br />
+  <h1><strong>Where Can You Reach Me?</strong></h1><br><br>
   <p>
     My main work email is:
     <a href="mailto:danielpacheco@ieee.org">danielpacheco@ieee.org</a><br />
