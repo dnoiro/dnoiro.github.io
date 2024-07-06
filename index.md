@@ -16,6 +16,6 @@ I'm in the process of creating my website :)
 <!-- make the background a gif of stars-->
 <style>
   body {
-    background-image: url('stars.gif');
+    background-image: url('star_wallpaper.gif');
   }
 </style>
