@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
   <title>Contact Info</title>
 </head>
@@ -15,5 +12,3 @@
     <a href="mailto:dpachec@g.clemson.edu">dpachec@g.clemson.edu</a>
   </p>
 </body>
-
-</html>
