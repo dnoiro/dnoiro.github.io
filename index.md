@@ -1,14 +1,8 @@
 <head>
-  body{
-    background-image: url('https://i.sstatic.net/kx8MT.gif');
-    background-size: cover;
-    
-    
-    
-   height: 100vh;
-  padding:0;
-   margin:0;
-}
+  <img>
+<a href ="https://i.sstatic.net/kx8MT.gif"></a>
+  </img>
+</head>
 </head>
 <body>
   <h1><strong>Welcome to my website!</strong></h1>
