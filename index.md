@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Daniel's Site</title>
+  <title>Daniel Site</title>
 </head>
 
 <body>
