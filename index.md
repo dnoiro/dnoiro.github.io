@@ -1,8 +1,6 @@
 # Welcome to my website!
-<ul>
-<li><a href="./contact.md" style="color: white;">Contact Info</a></li>
-<li><a href="./aboutme.md" style="color: white;">Contact Info</a></li>
-</ul>
+- [About me]("./aboutme.md")
+- [Contact info]("./contact.md")
 I'm in the process of creating my website :)
 <style>
   body {
