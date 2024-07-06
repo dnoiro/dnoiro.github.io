@@ -2,13 +2,13 @@
 <style>
   body {
     font-family: 'Courier New', Courier, monospace;
-    color: red;
+    color: white;
   }
 </style>
 
 # Welcome to my website!
 
-- [Contact Info](./contact.html)
+<a href="./contact.md" style="color: white;">Contact Info</a>
 - [About Me](./aboutme.html)
 
 I'm in the process of creating my website :)
