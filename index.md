@@ -1,3 +1,15 @@
+<head>
+  body{
+    background-image: url('https://i.sstatic.net/kx8MT.gif');
+    background-size: cover;
+    
+    
+    
+   height: 100vh;
+  padding:0;
+   margin:0;
+}
+</head>
 <body>
   <h1><strong>Welcome to my website!</strong></h1>
   <br />
