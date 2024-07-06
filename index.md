@@ -1,7 +1,6 @@
-<!-- make all of the font retro red color-->
+<!-- make the url links red also-->
 <style>
-  body {
-    font-family: 'Courier New', Courier, monospace;
+  a {
     color: red;
   }
 </style>
@@ -18,4 +17,3 @@ I'm in the process of creating my website :)
   body {
     background-image: url('matrix_wallpaper.jpg');
   }
-</style>
