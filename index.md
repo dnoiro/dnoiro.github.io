@@ -1,6 +1,7 @@
 <!-- make the url links red also-->
 <style>
-  a {
+  body {
+    font-family: 'Courier New', Courier, monospace;
     color: red;
   }
 </style>
@@ -16,4 +17,6 @@ I'm in the process of creating my website :)
 <style>
   body {
     background-image: url('matrix_wallpaper.jpg');
+    color: red;
   }
+</style>
