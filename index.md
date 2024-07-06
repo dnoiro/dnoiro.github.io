@@ -1,6 +1,10 @@
-
+<!-- make a gif as my background. the gif is in the same place and it is called stars.gif -->
+<style>
+  body {
+    background-image: url('stars.gif');
+  }
+</style>
 <body>
-$PLACEHOLDER$<body style="background-image: url('./starts.gif');">
   <h1><strong>Welcome to my website!</strong></h1>
   <br />
   <ul>
