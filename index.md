@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
     <style>
         body {
@@ -17,4 +16,3 @@
         <li><a href="./aboutme">About me</a></li>
     </ul>
 </body>
-</html>
