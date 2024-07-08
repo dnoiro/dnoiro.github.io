@@ -1,7 +1,5 @@
 # Welcome to my website!
-<p style="color:red">
 <ul>
-        <li><a href="./contact">Contact Info</a></li>
-        <li><a href="./aboutme">About me</a></li>
+        <li><a href="./contact" style="color: red">Contact Info</a></li>
+        <li><a href="./aboutme" style="color: red">About me</a></li>
 </ul>
-</p>
