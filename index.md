@@ -1,5 +1,5 @@
 # Welcome to my website!
 <ul>
-        <li><a href="./contact">Contact Info</a></li>
+        <font color="red"><li><a href="./contact">Contact Info</a></li></font>
         <li><a href="./aboutme">About me</a></li>
 </ul>
