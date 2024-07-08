@@ -1,6 +1,6 @@
 <style>
     body {
-        background-image: url('matrix2.gif');
+        background-image: url('star_wallpaper.gif');
         background-size: cover;
         background-position: center;
     }
