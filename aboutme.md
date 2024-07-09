@@ -1,3 +1,6 @@
+<head
+<title>Daniel's homepage</title>
+</head>
 <h1><strong>Who Am I?</strong></h1>
 <br /><br />
 <p>Hi! My name is Daniel as you already probably know. I'm currently a student at Clemson University studying
