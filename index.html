@@ -1,23 +1,59 @@
-<style>
-    body {
-        background-image: url('star_wallpaper.gif');
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .red-header {
-        color: red;
-    }
-</style>
-<img src= "./Tandog.gif" />
-<h1 class="red-header">Welcome To My Website!</h1>
-<h2
-<ul>
-    <li><a href="./contact" style="color: red">Contact Info</a></li><br>
-    <li><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></li><br>
-    <li><a href="./aboutme" style="color: red">About Me</a></li>
-</ul>
-</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('star_wallpaper.gif');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .red-header {
+            color: red;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="./Tandog.gif" alt="Tandog">
+    <h1 class="red-header">Welcome To My Website!</h1>
+    <ul>
+        <li><a href="./contact">Contact Info</a></li>
+        <li><a href="https://github.com/dnoiro">My Github Profile</a></li>
+        <li><a href="./aboutme">About Me</a></li>
+    </ul>
+</body>
+</html>
