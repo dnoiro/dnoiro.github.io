@@ -1,3 +1,8 @@
+<style>
+    body {
+        background-color: #FFFFF0;
+    }
+</style>
 # Projects<br>
 
 ## Welcome to my project portfolio, where I display a broad spectrum of personal and collaborative projects developed during my college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
