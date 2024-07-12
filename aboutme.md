@@ -1,6 +1,6 @@
 <style>
     body {
-        background-color: #D3D3D3;
+        background-color: #663333;
     }
 </style>
 
