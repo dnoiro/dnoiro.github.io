@@ -6,5 +6,6 @@
         10,000 people. I have an older brother and a younger sister. My family and I have 3 dogs, Cookie, Tarzan, and
         Tobi.
 </p>
-![](IMG_7013.jpg)
-![](IMG_5798.jpg)
+<img src="IMG_7013.jpg" width="640">
+<img src="IMG_5798.jpg" width="640">
+
