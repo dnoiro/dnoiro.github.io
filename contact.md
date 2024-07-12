@@ -1,4 +1,9 @@
-  <h1><strong>Where Can You Reach Me?</strong></h1><br><br>
+<style>
+    body {
+        background-color: #FFFFF0;
+    }
+</style>
+  # **Where Can You Reach Me?**
   <p>
     My main work email is:
     <a href="mailto:danielpacheco@ieee.org">danielpacheco@ieee.org</a><br />
