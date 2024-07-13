@@ -14,14 +14,29 @@
             align-items: center;
             flex-direction: column;
             text-align: center;
-            font-family: 'Silkscreen', cursive; /* Applying the retro font */
+            font-family: 'Silkscreen', cursive;
+            height: 100vh; /* Use full screen height */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
         .red-header {
             color: red;
-            font-family: 'Silkscreen', cursive; /* Consistent font for headers */
+            font-family: 'Silkscreen', cursive;
         }
         img {
-            margin-left: 20px; /* Adjust this value to push the image more to the right */
+            width: 100%; /* Makes the image responsive */
+            max-width: 200px; /* Limits image size */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center image horizontally */
+        }
+        ul {
+            padding: 0; /* Remove default padding */
+        }
+        li {
+            list-style: none; /* Removes bullet points */
+        }
+        a {
+            text-decoration: none; /* Removes underline from links */
         }
     </style>
 </head>
@@ -29,9 +44,9 @@
     <img src="./Tandog.gif" alt="Decorative Image">
     <h1 class="red-header">Welcome To My Website!</h1>
     <ul>
-        <li><h3><a href="./contact" style="color: red">Contact Info</a></h3></li><br>
-        <li><h3><a href="./projects" style="color: red">Projects</a></h3></li><br>
-        <li><h3><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></h3></li><br>
+        <li><h3><a href="./contact" style="color: red">Contact Info</a></h3></li>
+        <li><h3><a href="./projects" style="color: red">Projects</a></h3></li>
+        <li><h3><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></h3></li>
         <li><h3><a href="./aboutme" style="color: red">About Me</a></h3></li>
     </ul>
 </body>
