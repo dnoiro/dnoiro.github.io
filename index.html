@@ -9,31 +9,33 @@
         body {
             background-image: url('star_wallpaper.gif');
             background-position: center;
-            background-size: auto; /* Ensures the background covers the full area */
+            background-size: auto; /* Original size of the background image */
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             text-align: center;
             font-family: 'Silkscreen', cursive;
-            height: 84vh; /* Full height */
+            height: 84vh; /* Adjusted full height */
             margin: 0; /* Remove default margin */
         }
-        .red-header {
-            color: red;
+        .red-header, a {
+            color: #0366d6; /* Changed to blue color */
             font-family: 'Silkscreen', cursive;
         }
-
+        a:visited {
+            color: #0366d6; /* Ensures visited links retain the blue color */
+        }
     </style>
 </head>
 <body>
     <img src="./Tandog.gif" alt="Decorative Image">
     <h1 class="red-header">Welcome To My Website!</h1>
     <ul>
-        <li><h3><a href="./contact" style="color: red">Contact Info</a></h3></li><br>
-        <li><h3><a href="./projects" style="color: red">Projects</a></h3></li><br>
-        <li><h3><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></h3></li><br>
-        <li><h3><a href="./aboutme" style="color: red">About Me</a></h3></li>
+        <li><h3><a href="./contact">Contact Info</a></h3></li><br>
+        <li><h3><a href="./projects">Projects</a></h3></li><br>
+        <li><h3><a href="https://github.com/dnoiro">My Github Profile</a></h3></li><br>
+        <li><h3><a href="./aboutme">About Me</a></h3></li>
     </ul>
 </body>
 </html>
