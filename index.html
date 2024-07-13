@@ -9,35 +9,22 @@
         body {
             background-image: url('star_wallpaper.gif');
             background-position: center;
+            background-size: cover; /* Ensures the background covers the full area */
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             text-align: center;
             font-family: 'Silkscreen', cursive;
-            height: 100vh; /* Use full screen height */
+            height: 100vh; /* Full height */
             margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            padding-bottom: 5vh; /* Increase padding at the bottom to shift content up */
         }
         .red-header {
             color: red;
             font-family: 'Silkscreen', cursive;
         }
         img {
-            width: 100%; /* Makes the image responsive */
-            max-width: 200px; /* Limits image size */
-            height: auto; /* Maintain aspect ratio */
-            margin: 0 auto; /* Center image horizontally */
-        }
-        ul {
-            padding: 0; /* Remove default padding */
-        }
-        li {
-            list-style: none; /* Removes bullet points */
-        }
-        a {
-            text-decoration: none; /* Removes underline from links */
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -45,11 +32,10 @@
     <img src="./Tandog.gif" alt="Decorative Image">
     <h1 class="red-header">Welcome To My Website!</h1>
     <ul>
-        <li><h3><a href="./contact" style="color: red">Contact Info</a></h3></li>
-        <li><h3><a href="./projects" style="color: red">Projects</a></h3></li>
-        <li><h3><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></h3></li>
+        <li><h3><a href="./contact" style="color: red">Contact Info</a></h3></li><br>
+        <li><h3><a href="./projects" style="color: red">Projects</a></h3></li><br>
+        <li><h3><a href="https://github.com/dnoiro" style="color: red">My Github Profile</a></h3></li><br>
         <li><h3><a href="./aboutme" style="color: red">About Me</a></h3></li>
     </ul>
 </body>
 </html>
-
