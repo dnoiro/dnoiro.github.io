@@ -1,1 +1,11 @@
-<img src="https://learn.microsoft.com/api/achievements/share/en-us/DanielPacheco-4889/3YS7N46H?sharingId=AAF3C6B0835FAC0E" alt="Introduction to Git">
+![Introduction to Git](./cert-images/Intro_to_git.jpg)
+![Introduction to Git](./cert-images/Intro_to_github.jpg)
+![Introduction to Git](./cert-images/Intro_github_prods.jpg)
+![Introduction to Git](./cert-images/github_copilot.jpg)
+![Introduction to Git](./cert-images/github_codespaces.jpg)
+![Introduction to Git](./cert-images/github_projects.jpg)
+![Introduction to Git](./cert-images/github_markdown.jpg)
+![Introduction to Git](./cert-images/github_opensource.jpg)
+![Introduction to Git](./cert-images/github_innersource.jpg)
+![Introduction to Git](./cert-images/github_security.jpg)
+
