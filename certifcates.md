@@ -1,7 +1,5 @@
 # Certificates
-- Github Foundations
-- Mathworks
-- Cadence Design Systems
+## Github Foundations
 ![Introduction to Git](./cert-images/Intro_to_git.jpg)
 ![Introduction to Git](./cert-images/Intro_to_github.jpg)
 ![Introduction to Git](./cert-images/Intro_github_prods.jpg)
@@ -12,4 +10,5 @@
 ![Introduction to Git](./cert-images/github_opensource.jpg)
 ![Introduction to Git](./cert-images/github_innersource.jpg)
 ![Introduction to Git](./cert-images/github_security.jpg)
+## Mathworks
 
