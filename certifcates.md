@@ -1,3 +1,8 @@
+<style>
+    body {
+        background-color: #FFFFF0;
+    }
+</style>
 # Certificates
 - Github Foundations
 - Mathworks
