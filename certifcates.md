@@ -8,16 +8,16 @@
 - Mathworks
 - Cadence Design Systems
 ## Github Foundations
+![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
+![Manage an InnerSource program by using GitHub](./cert-images/github_innersource.jpg)
+![Contribute to an open-source project on GitHub](./cert-images/github_opensource.jpg)
+![Communicate effectively on GitHub using Markdown](./cert-images/github_markdown.jpg)
+![Manage your work with GitHub Projects](./cert-images/github_projects.jpg)
+![Code with GitHub Codespaces](./cert-images/github_codespaces.jpg)
+![Introduction to GitHub Copilot](./cert-images/github_copilot.jpg)
+![Introduction to GitHub's products](./cert-images/Intro_github_prods.jpg)
+![Introduction to GitHub](./cert-images/Intro_to_github.jpg)
 ![Introduction to Git](./cert-images/Intro_to_git.jpg)
-![Introduction to Git](./cert-images/Intro_to_github.jpg)
-![Introduction to Git](./cert-images/Intro_github_prods.jpg)
-![Introduction to Git](./cert-images/github_copilot.jpg)
-![Introduction to Git](./cert-images/github_codespaces.jpg)
-![Introduction to Git](./cert-images/github_projects.jpg)
-![Introduction to Git](./cert-images/github_markdown.jpg)
-![Introduction to Git](./cert-images/github_opensource.jpg)
-![Introduction to Git](./cert-images/github_innersource.jpg)
-![Introduction to Git](./cert-images/github_security.jpg)
 ## Mathworks
 ![Deep Learning with MATLAB](./cert-images/mat_deeplearning.jpg)
 ![Simulink Onramp](./cert-images/mat_simulink.jpg)
