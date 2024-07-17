@@ -22,6 +22,7 @@
 ![Deep Learning with MATLAB](./cert-images/mat_deeplearning.jpg)
 ![Simulink Onramp](./cert-images/mat_simulink.jpg)
 ![The How and Why of Writing Functions](./cert-images/mat_functions.jpg)
+![Object-Oriented Programming](./cert-images/oop.jpg)
 ## Cadence Design Systems
 Coming Soon...
 
