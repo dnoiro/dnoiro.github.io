@@ -8,7 +8,7 @@
 ## Welcome to my project portfolio, where I display a broad spectrum of personal and collaborative projects developed during my college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
 
 ### Mini MATLAB coding Projects involving Signals and Systems
-![System Analysis and Comparison](https://danielpacheco.dev/Matlab-Projects/matlab6.pdf)
+[System Analysis and Comparison](https://danielpacheco.dev/Matlab-Projects/matlab6.pdf)
 
 ### Behavioral Modelling of Phase-Locked Loop using Deep Learning Techniques (MATLAB-Simulink-Challenge-Project) 💻🔒<br>
 This project focuses on developing a deep learning-based behavioral model for Phase-Locked Loops (PLLs), which are crucial in many electronic systems. Despite their complexity and the intricacies involved in their simulation, this model aims to streamline the estimation of key performance metrics such as lock time, phase noise, and operating frequency without detailed component design. Utilizing advanced deep learning techniques, the project seeks to create a model that is both abstract for speed and detailed enough to account for non-ideal PLL effects. The process includes generating and training on data from a simulated PLL environment, ensuring that the model can accurately predict PLL behavior under various conditions, thus accelerating mixed-signal design and **reducing time-to-market for semiconductor products**.<br>
