@@ -22,7 +22,7 @@ The Space Flight Design project, conducted by a multidisciplinary team of engine
 
 ### Graph Models of Electric Power Transmission Network ⚡<br> 
 > [!NOTE]
->This project began as a class assignment but never worked correctly, so now I'm personally creating it from scratch.<br>
+>This project began as a class assignment but now I'm personally creating it from scratch.<br>
 
 This project is an initiative designed to enhance the operational reliability of modern power systems through advanced graph modeling techniques. Utilizing Phasor Measurement Unit (PMU) data, the project focuses on constructing a comprehensive Transmission Network Graph Model (TNGM) that optimizes power transmission and system monitoring. This effort integrates discrete particle swarm optimization (IPSO) for effective network mapping and includes the development of a smart visualization tool to aid system operators. The project aims to provide a robust solution for managing and controlling power grid systems, ensuring efficient and secure energy distribution across diverse geographical landscapes. 
 
