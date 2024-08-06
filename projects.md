@@ -3,9 +3,9 @@
         background-color: #FFFFF0;
     }
 </style>
-# Projects<br>
+# Projects and Labs<br>
 
-## Welcome to my project portfolio, where I display a broad spectrum of personal and collaborative projects developed during my college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
+## Welcome to my project and labs portfolio, where I display a broad spectrum of personal work developed during my college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
 # MATLAB
 ### Mini MATLAB coding Projects involving Signals and Systems
 [MATLAB Transfer Function and Zero-Pole-Gain System Analysis](https://danielpacheco.dev/Matlab-Projects/matlab6.pdf) For this mini project, I analyzed and compared two systems using MATLAB. First, I defined a transfer function system and observed its impulse response. Then, I created a zero-pole-gain model of another system, compared their impulse responses, and plotted them for visual analysis. I also simulated the time response to an input signal and calculated key performance metrics such as settling time, minimum and maximum values, and their corresponding times. Additionally, I examined the step response, obtaining detailed step characteristics like rise time and overshoot. Lastly, I generated and analyzed the Bode and pole-zero plots to understand the frequency response and stability of the systems.<br>
