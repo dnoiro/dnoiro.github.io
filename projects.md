@@ -28,15 +28,21 @@ This project is an initiative designed to enhance the operational reliability of
 # x86 Assembly Lab
 ### Lab 1
 In this lab, I learned how to write, test, and debug assembly and C programs on Windows and Linux. I created an assembly program, transferred files between systems, and tested the program on Linux machines. This hands-on experience provided a solid foundation for future lab assignments and enhanced my understanding of cross-platform development environments.
+[Lab1 files](http://danielpacheco.dev/assemblylabs/Lab1)
 ### Lab 2
 In this lab, I learned about the importance and usage of registers, declaring and initializing global variables, and direct and immediate addressing in assembly programming. I performed basic operations such as move, add, subtract, multiply, and divide, and translated C code expressions into assembly language.
+[Lab2 files](http://danielpacheco.dev/assemblylabs/Lab2)
 ### Lab 3
 In this lab, I learned about flags and their role in assembly operations, the use of labels, and how to jump to labeled code sections based on flag conditions. I explored the compare instruction and its differences from C comparisons, applied conditional jumps, decomposed complex C conditionals into assembly, and understood how to perform unconditional jumps to different code segments.
+[Lab3 files](http://danielpacheco.dev/assemblylabs/Lab3)
 ### Lab 4
 In this lab, I differentiated between data, operands, results, and post-operation locations, and learned about various addressing modes in the Intel 80386, including register, immediate, direct, register indirect, direct indexed, and base indexed addressing. I applied these addressing modes to implement arrays, pointers, and data structures.
+[Lab4 files](http://danielpacheco.dev/assemblylabs/Lab4)
 ### Lab 5
 In this lab, I learned about the stack, its usage, and stack registers in programming. I implemented functions and subroutines in assembly language, understood the roles of the prolog and epilog, and worked with local variables. Additionally, I differentiated between iterative and recursive techniques and applied recursion to assembly programming.
+[Lab5 files](http://danielpacheco.dev/assemblylabs/Lab5)
 #### Lab 6
 In this lab, I explored how to pass arguments and parameters to assembly functions and return values from them. I also learned how to handle parameters and returns in recursive functions, gaining a deeper understanding of function calls and stack management in assembly programming.
+[Lab6 files](http://danielpacheco.dev/assemblylabs/Lab6)
 
 
