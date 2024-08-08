@@ -24,7 +24,7 @@
 ![The How and Why of Writing Functions](./cert-images/mat_functions.jpg)
 ![Object-Oriented Programming](./cert-images/oop.jpg)
 ## Cadence Design Systems
-38% done... 8/6/24
+50% done... 8/7/24
 
 
 
