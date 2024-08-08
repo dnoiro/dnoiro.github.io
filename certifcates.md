@@ -1,6 +1,6 @@
 <style>
     body {
-        background-color: #FFFFF0;
+        background-color: #141414;
     }
 </style>
 # Certificates
