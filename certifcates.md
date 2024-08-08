@@ -4,9 +4,11 @@
     }
 </style>
 # Certificates
+- Cadence Design Systems
 - Github Foundations
 - Mathworks
-- Cadence Design Systems
+## Cadence Design Systems
+![Allegro PCB Editor Basic Techniques v22.1](./cert-images/cadencefirstcert.jpg)
 ## Github Foundations
 ![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
 ![Manage an InnerSource program by using GitHub](./cert-images/github_innersource.jpg)
@@ -23,8 +25,7 @@
 ![Simulink Onramp](./cert-images/mat_simulink.jpg)
 ![The How and Why of Writing Functions](./cert-images/mat_functions.jpg)
 ![Object-Oriented Programming](./cert-images/oop.jpg)
-## Cadence Design Systems
-50% done... 8/7/24
+
 
 
 
