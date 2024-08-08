@@ -4,10 +4,10 @@
         color: white;
     }
 </style>
-# Projects and Labs<br>
+# Projects and Labs :octocat: <br>
 
 ## Welcome to my project and labs portfolio, where I display a broad spectrum of personal work developed during my college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
-# MATLAB
+# MATLAB :
 ### Mini MATLAB coding Projects involving Signals and Systems
 [MATLAB Transfer Function and Zero-Pole-Gain System Analysis](https://danielpacheco.dev/Matlab-Projects/matlab6.pdf) For this mini project, I analyzed and compared two systems using MATLAB. First, I defined a transfer function system and observed its impulse response. Then, I created a zero-pole-gain model of another system, compared their impulse responses, and plotted them for visual analysis. I also simulated the time response to an input signal and calculated key performance metrics such as settling time, minimum and maximum values, and their corresponding times. Additionally, I examined the step response, obtaining detailed step characteristics like rise time and overshoot. Lastly, I generated and analyzed the Bode and pole-zero plots to understand the frequency response and stability of the systems.<br>
 
@@ -26,7 +26,7 @@ The Space Flight Design project, conducted by a multidisciplinary team of engine
 >This project began as a class assignment but now I'm personally creating it from scratch.<br>
 
 This project is an initiative designed to enhance the operational reliability of modern power systems through advanced graph modeling techniques. Utilizing Phasor Measurement Unit (PMU) data, the project focuses on constructing a comprehensive Transmission Network Graph Model (TNGM) that optimizes power transmission and system monitoring. This effort integrates discrete particle swarm optimization (IPSO) for effective network mapping and includes the development of a smart visualization tool to aid system operators. The project aims to provide a robust solution for managing and controlling power grid systems, ensuring efficient and secure energy distribution across diverse geographical landscapes. 
-# x86 Assembly Lab
+# x86 Assembly Lab 👨‍🔬
 ### Lab 1
 In this lab, I learned how to write, test, and debug assembly and C programs on Windows and Linux. I created an assembly program, transferred files between systems, and tested the program on Linux machines. This hands-on experience provided a solid foundation for future lab assignments and enhanced my understanding of cross-platform development environments.
 [Lab1 file](http://danielpacheco.dev/assemblylabs/Lab1/dpachec_273_001_1.s)
