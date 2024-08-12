@@ -10,36 +10,66 @@
     <style>
         body {
             background-color: #141414;
-            background-position: center;
-            background-size: auto; /* Original size of the background image */
             display: flex;
-            justify-content: auto;
+            justify-content: center;
             align-items: center;
             flex-direction: column;
-            text-align: auto;
             font-family: "Esteban", serif;
-            height: 84vh; /* Adjusted full height */
-            margin: 0; /* Remove default margin */
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 80%;
+        }
+        .main-content {
+            flex: 3;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .badges {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .red-header, a {
-            color: #0366d6; /* Changed to blue color */
+            color: #0366d6;
             font-family: "Esteban", serif;
         }
         a:visited {
-            color: #0366d6; /* Ensures visited links retain the blue color */
+            color: #0366d6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <img src="./Tandog.gif" alt="Decorative Image">
-    <h1 class="red-header">Welcome To My Website!</h1>
-    <img src="./BLU.gif" alt="Decorative Image">
-    <ul>
-        <li><h3><a href="./contact">Contact Info</a></h3></li><br>
-        <li><h3><a href="./projects">Projects and Labs</a></h3></li><br>
-        <li><h3><a href="./certifcates">Certificates</a></h3></li><br>
-        <li><h3><a href="https://github.com/dnoiro">My Github Profile</a></h3></li><br>
-        <li><h3><a href="./aboutme">About Me</a></h3></li>
-    </ul>
+    <div class="content">
+        <div class="main-content">
+            <img src="./Tandog.gif" alt="Decorative Image">
+            <h1 class="red-header">Welcome To My Website!</h1>
+            <img src="./BLU.gif" alt="Decorative Image">
+            <ul>
+                <li><h3><a href="./contact">Contact Info</a></h3></li>
+                <li><h3><a href="./projects">Projects and Labs</a></h3></li>
+                <li><h3><a href="./certifcates">Certificates</a></h3></li>
+                <li><h3><a href="https://github.com/dnoiro">My Github Profile</a></h3></li>
+                <li><h3><a href="./aboutme">About Me</a></h3></li>
+            </ul>
+        </div>
+        <div class="badges">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0121bf45-ff3a-494a-b3a9-2d7251b26ca0" data-share-badge-host="https://www.credly.com"></div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            <!-- Add more badges here by copying the above div and changing the badge ID -->
+        </div>
+    </div>
 </body>
 </html>
