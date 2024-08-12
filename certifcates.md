@@ -10,6 +10,9 @@
 - Mathworks
 
 ## Cadence Design Systems
+<a href="https://www.credly.com/badges/169191fd-e9a7-4c93-ab75-3291a2658c05/public_url" target="_blank">
+    <img src="cert-images/allegro-pcb-editor-basic-techniques-v22-1-exam.png" alt="Allegro PCB Editor Basic Techniques v22.1">
+</a>
 <a href="https://www.credly.com/badges/0121bf45-ff3a-494a-b3a9-2d7251b26ca0/public_url" target="_blank">
     <img src="cert-images/allegro-pcb-editor-basic-techniques-v22-1-exam.png" alt="Allegro PCB Editor Basic Techniques v22.1">
 </a>
