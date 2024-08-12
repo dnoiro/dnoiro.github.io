@@ -10,7 +10,7 @@
 - Mathworks
 ## Cadence Design Systems
 ![Xcelium Simulator v24.03](./cert-images/xcelium.jpg)
-![Allegro PCB Editor Basic Techniques v22.1](./cert-images/cadencepcb1.jpg)
+![Allegro PCB Editor Basic Techniques v22.1](cert-images/allegro-pcb-editor-basic-techniques-v22-1-exam.png)
 ## Github Foundations
 ![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
 ![Manage an InnerSource program by using GitHub](./cert-images/github_innersource.jpg)
