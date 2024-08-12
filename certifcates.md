@@ -9,9 +9,8 @@
 - Github Foundations
 - Mathworks
 ## Cadence Design Systems
-#### Xcelium 70% done... 08/11/24
-
-<br>![Allegro PCB Editor Basic Techniques v22.1](./cert-images/cadencepcb1.jpg)
+![Xcelium Simulator v24.03](./cert-images/xcelium.jpg)
+![Allegro PCB Editor Basic Techniques v22.1](./cert-images/cadencepcb1.jpg)
 ## Github Foundations
 ![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
 ![Manage an InnerSource program by using GitHub](./cert-images/github_innersource.jpg)
