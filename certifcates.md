@@ -8,8 +8,14 @@
 - Cadence Design Systems
 - Github Foundations
 - Mathworks
+
 ## Cadence Design Systems
 ![Allegro PCB Editor Basic Techniques v22.1](cert-images/allegro-pcb-editor-basic-techniques-v22-1-exam.png)
+
+<!-- Add the Credly badge here -->
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0121bf45-ff3a-494a-b3a9-2d7251b26ca0" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 ## Github Foundations
 ![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
 ![Manage an InnerSource program by using GitHub](./cert-images/github_innersource.jpg)
@@ -21,12 +27,9 @@
 ![Introduction to GitHub's products](./cert-images/Intro_github_prods.jpg)
 ![Introduction to GitHub](./cert-images/Intro_to_github.jpg)
 ![Introduction to Git](./cert-images/Intro_to_git.jpg)
+
 ## Mathworks
 ![Deep Learning with MATLAB](./cert-images/mat_deeplearning.jpg)
 ![Simulink Onramp](./cert-images/mat_simulink.jpg)
 ![The How and Why of Writing Functions](./cert-images/mat_functions.jpg)
 ![Object-Oriented Programming](./cert-images/oop.jpg)
-
-
-
-
