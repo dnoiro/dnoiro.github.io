@@ -9,7 +9,7 @@
 - Github Foundations
 - Mathworks
 ## Cadence Design Systems
-![Xcelium Simulator v24.03](./cert-images/xcelium.jpg)
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0121bf45-ff3a-494a-b3a9-2d7251b26ca0" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 ![Allegro PCB Editor Basic Techniques v22.1](cert-images/allegro-pcb-editor-basic-techniques-v22-1-exam.png)
 ## Github Foundations
 ![Maintain a secure repository by using GitHub best practices](./cert-images/github_security.jpg)
