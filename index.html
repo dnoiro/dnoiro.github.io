@@ -10,19 +10,27 @@
     <style>
         body {
             background-color: #141414;
-            display: flex;
+            color: #0366d6;
             font-family: "Esteban", serif;
-            height: 100vh;
             margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 80%;
         }
         .sidebar {
-            width: 150px; /* Adjust width as needed */
+            width: 150px;
+            padding-top: 50px; /* Position the badge lower */
             display: flex;
             flex-direction: column;
-            justify-content: flex-start; /* Align items to the top */
             align-items: center;
-            margin-right: 20px; /* Space between sidebar and main content */
-            padding-top: 50px; /* Add padding to lower the badge */
         }
         .main-content {
             flex: 1;
@@ -31,8 +39,9 @@
             align-items: center;
             text-align: center;
         }
-        .red-header, a {
+        a {
             color: #0366d6;
+            text-decoration: none;
         }
         a:visited {
             color: #0366d6;
@@ -40,35 +49,33 @@
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 20px 0 0 0;
         }
         ul li {
-            margin-bottom: 10px;
-        }
-        .badge-item {
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="badge-item">
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0121bf45-ff3a-494a-b3a9-2d7251b26ca0" data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div class="container">
+        <div class="sidebar">
+            <div class="badge-item">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0121bf45-ff3a-494a-b3a9-2d7251b26ca0" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+            <!-- Add more badges as needed -->
         </div>
-        <!-- Add more badges here as needed -->
-    </div>
-    
-    <div class="main-content">
-        <img src="./Tandog.gif" alt="Decorative Image">
-        <h1 class="red-header">Welcome To My Website!</h1>
-        <img src="./BLU.gif" alt="Decorative Image">
-        <ul>
-            <li><h3><a href="./contact">Contact Info</a></h3></li>
-            <li><h3><a href="./projects">Projects and Labs</a></h3></li>
-            <li><h3><a href="./certifcates">Certificates</a></h3></li>
-            <li><h3><a href="https://github.com/dnoiro">My Github Profile</a></h3></li>
-            <li><h3><a href="./aboutme">About Me</a></h3></li>
-        </ul>
+
+        <div class="main-content">
+            <h1>Welcome To My Website!</h1>
+            <ul>
+                <li><h3><a href="./contact">Contact Info</a></h3></li>
+                <li><h3><a href="./projects">Projects and Labs</a></h3></li>
+                <li><h3><a href="./certifcates">Certificates</a></h3></li>
+                <li><h3><a href="https://github.com/dnoiro">My Github Profile</a></h3></li>
+                <li><h3><a href="./aboutme">About Me</a></h3></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
