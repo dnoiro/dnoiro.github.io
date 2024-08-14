@@ -9,7 +9,7 @@
 - Github Foundations
 - Mathworks
 
-## Cadence Design Systems (CLICK ON THE IMAGES TO LEARN ABOUT WHAT IT TAKES TO GET CERTIFIED 😎)
+## Cadence Design Systems (CLICK on the images to learn about what it takes to get certified 😎)
 <a href="https://www.credly.com/badges/169191fd-e9a7-4c93-ab75-3291a2658c05/public_url" target="_blank">
     <img src="cert-images/xcelium-simulator-v24-03-exam.png" alt="Xcelium Simulator v24.03">
 </a>
