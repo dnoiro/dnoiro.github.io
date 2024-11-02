@@ -18,12 +18,9 @@
 ### Space Flight Design Creative Inquiry 🚀<br>
 The Space Flight Design project, conducted by a multidisciplinary team of engineers at Clemson University, focused on launching a rocket equipped with environmental sensors to study atmospheric conditions at varying altitudes. This initiative aimed to gather data on temperature, pressure, humidity, and other essential atmospheric metrics during the flight. The project not only showcased the practical application of engineering skills but also provided significant insights into environmental and atmospheric science. <video controls="controls" width="800" height="600" name="Rocket Launch"> <source src="https://danielpacheco.dev/videos/rocketlaunch.mov"> </video>
 <br>
-# Python
+# MATLAB
 ### Graph Models of Electric Power Transmission Network ⚡<br> 
-> [!NOTE]
->This project began as a class assignment but now I'm personally creating it from scratch.<br>
-
-This project is an initiative designed to enhance the operational reliability of modern power systems through advanced graph modeling techniques. Utilizing Phasor Measurement Unit (PMU) data, the project focuses on constructing a comprehensive Transmission Network Graph Model (TNGM) that optimizes power transmission and system monitoring. This effort integrates discrete particle swarm optimization (IPSO) for effective network mapping and includes the development of a smart visualization tool to aid system operators. The project aims to provide a robust solution for managing and controlling power grid systems, ensuring efficient and secure energy distribution across diverse geographical landscapes. 
+This project aims to enhance the operational reliability of modern power systems through advanced graph modeling techniques. By leveraging Phasor Measurement Unit (PMU) data, the project constructs a Transmission Network Graph Model (TNGM) to improve power transmission and system monitoring. Using MATLAB and discrete particle swarm optimization (IPSO), the project develops an optimized mapping of network topology, complemented by an intelligent visualization tool for operator situational awareness. This approach provides a robust framework for managing and controlling power grid systems, enabling efficient and secure energy distribution across various regions.
 # x86 Assembly Lab 👨‍🔬
 ### Lab 1
 In this lab, I learned how to write, test, and debug assembly and C programs on Windows and Linux. I created an assembly program, transferred files between systems, and tested the program on Linux machines. This hands-on experience provided a solid foundation for future lab assignments and enhanced my understanding of cross-platform development environments.
