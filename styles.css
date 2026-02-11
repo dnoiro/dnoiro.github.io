@@ -33,12 +33,12 @@ img {
     align-items: center;
 }
 
-ul {
+.nav-links {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.nav-links li {
     margin-bottom: 1rem;
 }
 
