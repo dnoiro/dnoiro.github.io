@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles.css">
 <style>
     body {
         background-color: #141414;

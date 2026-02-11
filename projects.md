@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles.css">
 <style>
     body {
         background-color: #141414;
@@ -16,7 +17,7 @@
 [MATLAB Signal Analysis and Fourier Transform](https://danielpacheco.dev/Matlab-Projects/matlab4.pdf) In this mini project, I used MATLAB to analyze signals and their Fourier transforms. I generated a sequence of amplitudes, computed their frequency response, and plotted the magnitude of the Fourier transforms. Additionally, I created unipolar signals and examined their frequency characteristics. By adding noise to the signals, I analyzed the impact on their frequency response. I also convolved the signals with various functions and studied the resulting transformations. Finally, I calculated the power spectrum and determined the weighted average frequency for different signals.
 # Creative Inquiry
 ### Space Flight Design Creative Inquiry 🚀<br>
-The Space Flight Design project, conducted by a multidisciplinary team of engineers at Clemson University, focused on launching a rocket equipped with environmental sensors to study atmospheric conditions at varying altitudes. This initiative aimed to gather data on temperature, pressure, humidity, and other essential atmospheric metrics during the flight. The project not only showcased the practical application of engineering skills but also provided significant insights into environmental and atmospheric science. <video controls="controls" width="800" height="600" name="Rocket Launch"> <source src="https://danielpacheco.dev/videos/rocketlaunch.mov"> </video>
+The Space Flight Design project, conducted by a multidisciplinary team of engineers at Clemson University, focused on launching a rocket equipped with environmental sensors to study atmospheric conditions at varying altitudes. This initiative aimed to gather data on temperature, pressure, humidity, and other essential atmospheric metrics during the flight. The project not only showcased the practical application of engineering skills but also provided significant insights into environmental and atmospheric science. <video controls="controls" name="Rocket Launch"> <source src="https://danielpacheco.dev/videos/rocketlaunch.mov"> </video>
 <br>
 # MATLAB
 ### Graph Models of Electric Power Transmission Network ⚡<br> 

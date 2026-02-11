@@ -25,6 +25,15 @@ a:visited {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-images {
@@ -50,6 +59,33 @@ img {
 
     h1 {
         font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .hero-images img {
+        max-width: 80%;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Improve link tap targets for mobile */
+    a {
+        padding: 0.2rem 0;
+        display: inline-block;
+    }
+
+    .nav-links li {
+        margin-bottom: 1.5rem;
     }
 }
 
