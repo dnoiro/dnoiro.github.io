@@ -33,6 +33,11 @@ img {
     align-items: center;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 ul li {
     margin-bottom: 1rem;
 }
