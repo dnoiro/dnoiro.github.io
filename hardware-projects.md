@@ -38,7 +38,7 @@
 
         <div class="hardware-gallery">
             <img src="/Screenshot 2026-03-18 224645.png" alt="2to1 multiplexer schematic view">
-            <img src="/IMG_5798.jpg" alt="2to1 multiplexer implementation layout view">
+            <img src="/Screenshot 2026-03-18 225355.png" alt="2to1 multiplexer implementation layout view">
         </div>
     </section>
 
