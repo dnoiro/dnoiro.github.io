@@ -1,25 +1,46 @@
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        background-color: #141414;
+        color: white;
+        padding: 2rem 1rem;
+    }
 
-        <h1>Hardware Projects</h1>
-        <p>Welcome to my hardware projects portfolio, where I showcase my hands-on experience with embedded systems, circuit design, and electronic engineering projects developed throughout my electrical engineering career.</p>
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
-        <section class="project-section">
-            <h2>Creating a 2to1 Multiplexor</h2>
-            <p>This project highlights the design and implementation of a 2-to-1 multiplexor in hardware. The multiplexor uses a select line to choose between two input signals and route the selected input to a single output. Through this build, I practiced digital logic design, circuit verification, and hands-on hardware debugging.</p>
+    .hardware-gallery {
+        display: grid;
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
 
-            <div class="media-row">
-                <img src="/Screenshot 2026-03-18 224645.png" alt="First project photo for the 2-to-1 multiplexor build">
-                <img src="/IMG_5798.jpg" alt="Second project photo for the 2-to-1 multiplexor build">
-            </div>
+    .hardware-gallery img {
+        width: 100%;
+        border-radius: 8px;
+    }
 
-            <video controls preload="metadata">
-                <source src="/videos/rocketlaunch.mov" type="video/quicktime">
-                Your browser does not support the video tag.
-            </video>
-        </section>
+    .back-link {
+        display: inline-block;
+        margin-top: 1.5rem;
+    }
+</style>
 
-        <p>
-            <a class="back-link" href="/">← Back to homepage</a>
-        </p>
-    </main>
-</body>
-</html>
+<main>
+    <h1>Hardware Projects</h1>
+    <p>This page highlights a few of my hardware builds and design work.</p>
+
+    <section>
+        <h2>Creating a 2to1 Multiplexer</h2>
+        <p>This project shows my 2to1 multiplexer design with schematic and implementation images, and I will add a video later.</p>
+
+        <div class="hardware-gallery">
+            <img src="/Screenshot 2026-03-18 224645.png" alt="2to1 multiplexer schematic view">
+            <img src="/IMG_5798.jpg" alt="2to1 multiplexer implementation layout view">
+        </div>
+    </section>
+
+    <p><a class="back-link" href="/">← Back to homepage</a></p>
+</main>
