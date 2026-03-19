@@ -30,7 +30,7 @@
 
 <main>
     <h1>Hardware Projects</h1>
-    <p>This page highlights a few of my hardware builds and design work.</p>
+    <p>This page highlights a few of my hardware builds and design work from easy to HARDDDDD.</p>
 
     <section>
         <h2>Creating a 2to1 Multiplexer</h2>
