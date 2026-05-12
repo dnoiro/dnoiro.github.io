@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafaf7;
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --line: #e5e3dd;
+      --line-focus: #1a1a1a;
+      --accent: #1a1a1a;
+      --error: #b54040;
+      --success: #2d6a4f;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 3rem 1.5rem;
+    }
+
+    .form-wrap {
+      width: 100%;
+      max-width: 460px;
+    }
+
+    .eyebrow {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 em {
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .intro {
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+      max-width: 38ch;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    label {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--ink);
+    }
+
+    input,
+    textarea {
+      font-family: inherit;
+      font-size: 1rem;
+      color: var(--ink);
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--line);
+      padding: 0.5rem 0;
+      outline: none;
+      transition: border-color 0.2s ease;
+      resize: none;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-bottom-color: var(--line-focus);
+    }
+
+    textarea {
+      min-height: 110px;
+      line-height: 1.6;
+    }
+
+    /* Honeypot — hidden from humans, visible to bots */
+    .hp {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+
+    button {
+      align-self: flex-start;
+      margin-top: 0.5rem;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: var(--bg);
+      background: var(--accent);
+      border: none;
+      padding: 0.85rem 1.75rem;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.2s ease;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+      background: #000;
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .status {
+      margin-top: 1rem;
+      font-size: 0.875rem;
+      min-height: 1.25rem;
+    }
+
+    .status.success { color: var(--success); }
+    .status.error   { color: var(--error); }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="form-wrap">
+      <p class="eyebrow">Get in touch</p>
+      <h1>Say <em>hello</em>.</h1>
+      <p class="intro">Drop a note below and I'll get back to you as soon as I can.</p>
+
+      <form id="contact-form" action="https://formspree.io/f/mlgzzzja" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <!-- Honeypot: leave empty. Bots fill it; we reject those. -->
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+
+        <button type="submit" id="submit-btn">Send message</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    const form   = document.getElementById('contact-form');
+    const btn    = document.getElementById('submit-btn');
+    const status = document.getElementById('status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      status.className = 'status';
+      status.textContent = '';
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          form.reset();
+          status.classList.add('success');
+          status.textContent = 'Thanks — your message is on its way.';
+          btn.textContent = 'Sent';
+        } else {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || 'Something went wrong.');
+        }
+      } catch (err) {
+        status.classList.add('error');
+        status.textContent = err.message || 'Could not send. Please try again.';
+        btn.disabled = false;
+        btn.textContent = 'Send message';
+      }
+    });
+  </script>
+</body>
+</html>
