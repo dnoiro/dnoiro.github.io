@@ -12,7 +12,7 @@
 - Mathworks
 
 ## Altium Designer (CLICK on the images to learn about what it takes to get certified 😎)
-<a href="https://www.credly.com/badges/510ef821-a723-4686-9f1c-14a6229c2c10/public_url" target="_blank">
+<a href="https://www.credly.com/badges/dba31755-3db7-4077-8254-9d80c15e8c40/public_url" target="_blank">
     <img src="cert-images/altium-accredited-pcb-design-essentials-on-demand.png" alt="Altium PCB Design Essentials">
 </a>
 <a href="https://www.credly.com/badges/510ef821-a723-4686-9f1c-14a6229c2c10/public_url" target="_blank">
