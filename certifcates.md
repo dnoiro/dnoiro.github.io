@@ -6,9 +6,15 @@
     }
 </style>
 # Certificates
+- Altium Designer
 - Cadence Design Systems
 - Github Foundations
 - Mathworks
+
+## Altium Designer
+<a href="https://www.credly.com/badges/6c65f588-802e-4584-a76d-cfb9c06b2bdd/public_url" target="_blank">
+    <img src="cert-images/altium-emerging-engineer(1).png" alt="Xcelium Simulator v24.03">
+</a>
 
 ## Cadence Design Systems (CLICK on the images to learn about what it takes to get certified 😎)
 <a href="https://www.credly.com/badges/6c65f588-802e-4584-a76d-cfb9c06b2bdd/public_url" target="_blank">
