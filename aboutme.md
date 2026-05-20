@@ -8,6 +8,7 @@
 
 # Who Am I?
 **Hey there! I’m Daniel, and I’m a student at Clemson University, studying Electrical Engineering🐅⚡️. I graduated from Clemson University last year! I was born and raised in a small town in South Carolina. I have an older brother and a younger sister. We also have three dogs: Cookie, Tarzan, and Tobi. And lastly, we have a loving (sarcasm alert!) bull named Canelo (Spanish for cinnamon).**<br>
-<img src="IMG_7013.jpg" alt="Daniel with family and friends">
-<img src="IMG_5798.jpg" alt="Daniel at Clemson University">
+<img src="IMG_0768.jpg" alt="Selfie of Daniel">
+<img src="IMG_7013.jpg" alt="Daniel's dog">
+<img src="IMG_5798.jpg" alt="Daniels other dogs">
 <img src="Cow.jpg" alt="Canelo the bull">
