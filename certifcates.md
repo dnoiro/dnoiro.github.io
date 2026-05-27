@@ -6,10 +6,14 @@
     }
 </style>
 # Certificates
+- C++
 - Altium Designer
 - Cadence Design Systems
 - Github Foundations
 - Mathworks
+
+## C++
+![C++ Programming Fundamentals](./main/cpp_fundamentals.jpg)
 
 ## Altium Designer (CLICK on the images to learn about what it takes to get certified 😎)
 <a href="https://www.credly.com/badges/dba31755-3db7-4077-8254-9d80c15e8c40/public_url" target="_blank">
