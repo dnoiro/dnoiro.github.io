@@ -8,11 +8,11 @@ permalink: /projects/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Selected software, signal processing, power systems, aerospace, and low-level programming work by Daniel Pacheco.">
-    <meta name="theme-color" content="#0b0e12">
+    <meta name="theme-color" content="#141414">
     <title>Projects &amp; Labs — Daniel Pacheco</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Esteban&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body id="top" class="projects-page">
@@ -228,15 +228,6 @@ permalink: /projects/
             </div>
         </section>
 
-        <section class="project-contact" aria-labelledby="contact-title">
-            <p class="project-kicker"><span aria-hidden="true"></span> Let’s build something</p>
-            <h2 id="contact-title">Interested in the work?</h2>
-            <p>I’m always open to thoughtful conversations about engineering, systems, and new opportunities.</p>
-            <div class="contact-actions">
-                <a class="project-cta" href="/contact-form.html">Start a conversation <span aria-hidden="true">→</span></a>
-                <a class="text-link" href="/">Back to home</a>
-            </div>
-        </section>
     </main>
 
     <footer class="project-footer">

@@ -172,20 +172,18 @@ body.home-page {
 
 /* Projects and labs */
 html:has(body.projects-page) {
-    background: #0b0e12;
+    background: #141414;
     scroll-behavior: smooth;
 }
 
 body.projects-page {
-    --project-bg: #0b0e12;
-    --project-surface: #11161d;
-    --project-surface-raised: #161c24;
-    --project-line: #26303c;
-    --project-text: #f0f3f6;
-    --project-muted: #9aa8b7;
-    --project-accent: #f0b35a;
-    --project-accent-soft: #302515;
-    --project-cyan: #5cc8be;
+    --project-bg: #141414;
+    --project-surface: #191d23;
+    --project-line: #303b4a;
+    --project-text: #ffffff;
+    --project-muted: #b8c4d5;
+    --project-accent: #58a6ff;
+    --project-cyan: #79b8ff;
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -194,11 +192,9 @@ body.projects-page {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background:
-        radial-gradient(circle at 84% 8%, rgba(54, 104, 118, 0.16), transparent 26rem),
-        var(--project-bg);
+    background: var(--project-bg);
     color: var(--project-text);
-    font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: "Esteban", serif;
     text-align: left;
 }
 
@@ -215,7 +211,7 @@ body.projects-page {
 }
 
 .projects-page a:focus-visible {
-    outline: 2px solid var(--project-accent);
+    outline: 2px solid #f0b35a;
     outline-offset: 4px;
 }
 
@@ -270,7 +266,7 @@ body.projects-page {
     place-items: center;
     border: 1px solid var(--project-accent);
     color: var(--project-accent);
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.72rem;
     font-weight: 500;
 }
@@ -283,7 +279,7 @@ body.projects-page {
 
 .project-nav a {
     color: var(--project-muted);
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.75rem;
     letter-spacing: 0.04em;
     text-decoration: none;
@@ -309,7 +305,7 @@ body.projects-page {
 .lab-label {
     margin: 0;
     color: var(--project-accent);
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.72rem;
     font-weight: 500;
     letter-spacing: 0.11em;
@@ -334,7 +330,7 @@ body.projects-page {
     color: var(--project-text);
     font-size: clamp(3.2rem, 7.5vw, 7rem);
     font-weight: 600;
-    letter-spacing: -0.065em;
+    letter-spacing: -0.035em;
     line-height: 0.98;
 }
 
@@ -382,7 +378,7 @@ body.projects-page {
 
 .project-stats dt {
     color: var(--project-accent);
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 1.45rem;
 }
 
@@ -411,7 +407,7 @@ body.projects-page {
     color: var(--project-text);
     font-size: clamp(2.1rem, 4vw, 3.9rem);
     font-weight: 600;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.025em;
     line-height: 1.08;
 }
 
@@ -445,7 +441,7 @@ body.projects-page {
     top: 1.5rem;
     right: 1.75rem;
     color: #697686;
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.7rem;
     letter-spacing: 0.1em;
 }
@@ -461,7 +457,7 @@ body.projects-page {
     border: 1px solid #34404d;
     border-radius: 999px;
     color: #aeb9c5;
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.62rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -472,7 +468,7 @@ body.projects-page {
     color: var(--project-text);
     font-size: clamp(1.8rem, 3vw, 3rem);
     font-weight: 600;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
     line-height: 1.12;
 }
 
@@ -503,7 +499,7 @@ body.projects-page {
     left: 0;
     color: var(--project-accent);
     content: "+";
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
 }
 
 .project-cta {
@@ -570,7 +566,7 @@ body.projects-page {
 .terminal-bar p {
     margin: 0 0 0 0.5rem;
     color: #7f8b98;
-    font-family: "DM Mono", monospace;
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
     font-size: 0.65rem;
 }
 
@@ -579,7 +575,7 @@ body.projects-page {
     margin: 0;
     padding: 2rem;
     color: #dbe3eb;
-    font-family: "DM Mono", monospace;
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
     font-size: clamp(0.68rem, 1.1vw, 0.82rem);
     line-height: 1.85;
     white-space: pre-wrap;
@@ -633,7 +629,7 @@ body.projects-page {
     padding: 0.45rem 0.6rem;
     background: rgba(9, 12, 16, 0.84);
     color: #c0cad4;
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.58rem;
     letter-spacing: 0.06em;
     pointer-events: none;
@@ -642,7 +638,7 @@ body.projects-page {
 
 .power-project {
     background:
-        radial-gradient(circle at 85% 82%, rgba(92, 200, 190, 0.08), transparent 16rem),
+        radial-gradient(circle at 85% 82%, rgba(88, 166, 255, 0.08), transparent 16rem),
         var(--project-surface);
 }
 
@@ -674,7 +670,7 @@ body.projects-page {
 
 .network-nodes circle:nth-child(5) {
     fill: var(--project-cyan);
-    filter: drop-shadow(0 0 8px rgba(92, 200, 190, 0.7));
+    filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.7));
 }
 
 .network-legend {
@@ -688,7 +684,7 @@ body.projects-page {
     height: 0.4rem;
     border-radius: 50%;
     background: var(--project-cyan);
-    box-shadow: 0 0 6px rgba(92, 200, 190, 0.8);
+    box-shadow: 0 0 6px rgba(88, 166, 255, 0.8);
 }
 
 .studies-section .section-heading {
@@ -718,7 +714,7 @@ body.projects-page {
     align-self: start;
     padding-top: 0.35rem;
     color: var(--project-accent);
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.72rem;
 }
 
@@ -727,7 +723,7 @@ body.projects-page {
     color: var(--project-text);
     font-size: clamp(1.3rem, 2vw, 1.8rem);
     font-weight: 600;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.01em;
 }
 
 .study-row p {
@@ -785,7 +781,7 @@ body.projects-page {
     color: var(--project-text);
     font-size: 1.25rem;
     font-weight: 600;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.01em;
 }
 
 .lab-card > p:not(.lab-label) {
@@ -802,7 +798,7 @@ body.projects-page {
     width: max-content;
     margin-top: auto;
     color: #d7dee6;
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.68rem;
     letter-spacing: 0.05em;
     text-decoration: none;
@@ -813,37 +809,6 @@ body.projects-page {
     color: var(--project-accent);
 }
 
-.project-contact {
-    display: grid;
-    justify-items: center;
-    padding: clamp(5rem, 10vw, 9rem) 1.5rem;
-    border-top: 1px solid var(--project-line);
-    text-align: center;
-}
-
-.project-contact h2 {
-    margin: 1.3rem 0 0.8rem;
-    color: var(--project-text);
-    font-size: clamp(2.5rem, 6vw, 5.2rem);
-    font-weight: 600;
-    letter-spacing: -0.055em;
-    line-height: 1;
-}
-
-.project-contact > p:not(.project-kicker) {
-    max-width: 38rem;
-    margin: 0;
-    color: var(--project-muted);
-    line-height: 1.7;
-}
-
-.contact-actions {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
 .project-footer {
     display: flex;
     min-height: 6rem;
@@ -851,7 +816,7 @@ body.projects-page {
     justify-content: space-between;
     border-top: 1px solid var(--project-line);
     color: #778594;
-    font-family: "DM Mono", monospace;
+    font-family: "Esteban", serif;
     font-size: 0.63rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -991,10 +956,6 @@ body.projects-page {
 
     .lab-card {
         min-height: 16rem;
-    }
-
-    .contact-actions {
-        flex-direction: column;
     }
 
     .project-footer {
