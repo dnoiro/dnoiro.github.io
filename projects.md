@@ -33,10 +33,10 @@ permalink: /projects/
     <main id="work" class="project-shell">
         <section class="projects-hero" aria-labelledby="projects-title">
             <div class="projects-hero-copy">
-                <p class="project-kicker"><span aria-hidden="true"></span> Selected engineering work</p>
-                <h1 id="projects-title">From low-level code to real-world systems.</h1>
-                <p class="projects-intro">A selection of software, signal processing, power systems, and aerospace work—built to turn engineering theory into things that can be tested, measured, and improved.</p>
-                <a class="text-link" href="#featured">Explore selected work <span aria-hidden="true">↓</span></a>
+                <p class="project-kicker"><span aria-hidden="true"></span> Portfolio</p>
+                <h1 id="projects-title">Projects and labs.</h1>
+                <p class="projects-intro">Software, MATLAB, power systems, aerospace, and assembly work.</p>
+                <a class="text-link" href="#featured">View projects <span aria-hidden="true">↓</span></a>
             </div>
             <dl class="project-stats" aria-label="Portfolio at a glance">
                 <div>
