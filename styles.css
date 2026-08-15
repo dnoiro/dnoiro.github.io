@@ -48,6 +48,81 @@ video {
     bottom: 10px;
     right: 15px;
 }
+
+/* Small homepage refinements; inner pages keep their existing styles. */
+body.home-page {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: none;
+    padding: 2rem 1.5rem;
+}
+
+.home-page .home-content {
+    width: min(100%, 640px);
+}
+
+.home-page .hero-images {
+    gap: 0.75rem;
+}
+
+.home-page .red-header {
+    margin: 0.5rem 0;
+}
+
+.home-page .red-header,
+.home-page a,
+.home-page a:visited {
+    color: #58a6ff;
+}
+
+.home-page .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0 0;
+}
+
+.home-page .nav-links li,
+.home-page .nav-links h3 {
+    margin: 0;
+}
+
+.home-page .nav-links h3 {
+    font-weight: 400;
+}
+
+.home-page .nav-links a {
+    padding: 0.2rem 0.25rem;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.3rem;
+    transition: color 150ms ease, text-decoration-color 150ms ease;
+}
+
+.home-page .nav-links a:hover {
+    color: #79b8ff;
+    text-decoration-color: currentColor;
+}
+
+.home-page a:focus-visible {
+    outline: 2px solid #f0b35a;
+    outline-offset: 4px;
+}
+
+.home-quote {
+    width: min(100%, 420px);
+    margin: 2rem auto 0;
+    padding: 1.25rem 0 0;
+    border-top: 1px solid #303b4a;
+    color: #b8c4d5;
+    font-size: clamp(1.05rem, 2vw, 1.2rem);
+    font-style: italic;
+    letter-spacing: 0.025em;
+}
+
+.home-quote p {
+    margin: 0;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 0.9rem;
@@ -76,6 +151,16 @@ video {
     }
     .nav-links li {
         margin-bottom: 1.5rem;
+    }
+    body.home-page {
+        padding: 2rem 1rem;
+    }
+    .home-page .nav-links li {
+        margin-bottom: 0;
+    }
+    .home-page .misc-corner {
+        position: static;
+        margin-top: 2.5rem;
     }
 }
 @media (min-width: 1200px) {
