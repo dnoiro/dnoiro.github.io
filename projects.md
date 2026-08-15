@@ -1,48 +1,247 @@
-<link rel="stylesheet" href="styles.css">
-<style>
-    body {
-        background-color: #141414;
-        color: white;
-    }
-</style>
-# Projects and Labs <br>
+---
+layout: null
+permalink: /projects/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected software, signal processing, power systems, aerospace, and low-level programming work by Daniel Pacheco.">
+    <meta name="theme-color" content="#0b0e12">
+    <title>Projects &amp; Labs — Daniel Pacheco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body id="top" class="projects-page">
+    <a class="skip-link" href="#work">Skip to projects</a>
 
-## Welcome to my project and labs portfolio, where I display a broad spectrum of personal work developed during my college/post-college career. Here, you will find a rich collection of work that underscores my ability to creatively tackle complex engineering challenges.<br>
-# C++
-### A multi-function utility program that users can interact with via a text-based menu.
-[C++ multi-function utility program](https://github.com/dnoiro/utility_line_capstone_1/blob/main) For my capstone project in C++ Programming Fundamentals, I built a command-line utility that bundles five different tools behind a single menu-driven interface: a basic calculator, a Caesar cipher encrypt/decrypt module, a statistical calculator for mean, median, and mode, a password generator, and a clean exit option. I organized the project across multiple source and header files - one module per feature - to practice proper separation of concerns and get comfortable with multi-file builds. Along the way I worked through real C++ details: header guards and include hygiene, the difference between char and int, modular arithmetic for the cipher's wrap-around, std::vector and std::map for the statistics module, and the <random> library for the password generator. I put particular focus on input validation - every prompt loops until it gets a value of the right type in the right range, and the program recovers cleanly from bad input rather than crashing. The final result is a small but functional utility that taught me how the pieces of a real C++ program fit together.
-# MATLAB 
-### Mini MATLAB coding Projects involving Signals and Systems
-[MATLAB Transfer Function and Zero-Pole-Gain System Analysis](https://github.com/dnoiro/Matlab-Projects/blob/main/matlab6.pdf) For this mini project, I analyzed and compared two systems using MATLAB. First, I defined a transfer function system and observed its impulse response. Then, I created a zero-pole-gain model of another system, compared their impulse responses, and plotted them for visual analysis. I also simulated the time response to an input signal and calculated key performance metrics such as settling time, minimum and maximum values, and their corresponding times. Additionally, I examined the step response, obtaining detailed step characteristics like rise time and overshoot. Lastly, I generated and analyzed the Bode and pole-zero plots to understand the frequency response and stability of the systems.<br>
+    <header class="project-header">
+        <a class="project-wordmark" href="/" aria-label="Daniel Pacheco, home">
+            <span class="project-wordmark-mark" aria-hidden="true">DP</span>
+            <span>Daniel Pacheco</span>
+        </a>
+        <nav class="project-nav" aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#labs">Labs</a>
+            <a href="https://github.com/dnoiro" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
 
-[MATLAB Frequency Response and Roll-Off Analysis](https://github.com/dnoiro/Matlab-Projects/blob/main/matlab5.pdf) For this mini project, I used MATLAB to analyze the frequency response of a system. I defined constants A, B, C, D, and E, then solved for the gain K in a magnitude equation. Using this, I computed the system's transfer function $H(j\omega)$ and plotted the Bode magnitude plot. Additionally, I calculated key frequencies corresponding to -6 dB and -40 dB points and determined the system's roll-off ratio in dB/octave.<br>
+    <main id="work" class="project-shell">
+        <section class="projects-hero" aria-labelledby="projects-title">
+            <div class="projects-hero-copy">
+                <p class="project-kicker"><span aria-hidden="true"></span> Selected engineering work</p>
+                <h1 id="projects-title">From low-level code to real-world systems.</h1>
+                <p class="projects-intro">A selection of software, signal processing, power systems, and aerospace work—built to turn engineering theory into things that can be tested, measured, and improved.</p>
+                <a class="text-link" href="#featured">Explore selected work <span aria-hidden="true">↓</span></a>
+            </div>
+            <dl class="project-stats" aria-label="Portfolio at a glance">
+                <div>
+                    <dt>06</dt>
+                    <dd>Assembly labs</dd>
+                </div>
+                <div>
+                    <dt>03</dt>
+                    <dd>MATLAB studies</dd>
+                </div>
+                <div>
+                    <dt>05</dt>
+                    <dd>C++ modules</dd>
+                </div>
+            </dl>
+        </section>
 
-[MATLAB Signal Analysis and Fourier Transform](https://github.com/dnoiro/Matlab-Projects/blob/main/matlab4.pdf) In this mini project, I used MATLAB to analyze signals and their Fourier transforms. I generated a sequence of amplitudes, computed their frequency response, and plotted the magnitude of the Fourier transforms. Additionally, I created unipolar signals and examined their frequency characteristics. By adding noise to the signals, I analyzed the impact on their frequency response. I also convolved the signals with various functions and studied the resulting transformations. Finally, I calculated the power spectrum and determined the weighted average frequency for different signals.
-# Creative Inquiry
-### Space Flight Design Creative Inquiry 🚀<br>
-The Space Flight Design project, conducted by a multidisciplinary team of engineers at Clemson University, focused on launching a rocket equipped with environmental sensors to study atmospheric conditions at varying altitudes. This initiative aimed to gather data on temperature, pressure, humidity, and other essential atmospheric metrics during the flight. The project not only showcased the practical application of engineering skills but also provided significant insights into environmental and atmospheric science. <video controls="controls" name="Rocket Launch"> <source src="https://danielpacheco.dev/videos/rocketlaunch.mov"> </video>
-<br>
-# MATLAB
-### Graph Models of Electric Power Transmission Network ⚡<br> 
-This project aims to enhance the operational reliability of modern power systems through advanced graph modeling techniques. By leveraging Phasor Measurement Unit (PMU) data, the project constructs a Transmission Network Graph Model (TNGM) to improve power transmission and system monitoring. Using MATLAB and discrete particle swarm optimization (IPSO), the project develops an optimized mapping of network topology, complemented by an intelligent visualization tool for operator situational awareness. This approach provides a robust framework for managing and controlling power grid systems, enabling efficient and secure energy distribution across various regions.
-# x86 Assembly Lab 👨‍🔬
-### Lab 1
-In this lab, I learned how to write, test, and debug assembly and C programs on Windows and Linux. I created an assembly program, transferred files between systems, and tested the program on Linux machines. This hands-on experience provided a solid foundation for future lab assignments and enhanced my understanding of cross-platform development environments.
-[Lab1 file](http://danielpacheco.dev/assemblylabs/Lab1/dpachec_273_001_1.s)
-### Lab 2
-In this lab, I learned about the importance and usage of registers, declaring and initializing global variables, and direct and immediate addressing in assembly programming. I performed basic operations such as move, add, subtract, multiply, and divide, and translated C code expressions into assembly language.
-[Lab2 file](http://danielpacheco.dev/assemblylabs/Lab2/dpachec_273_001_2.s)
-### Lab 3
-In this lab, I learned about flags and their role in assembly operations, the use of labels, and how to jump to labeled code sections based on flag conditions. I explored the compare instruction and its differences from C comparisons, applied conditional jumps, decomposed complex C conditionals into assembly, and understood how to perform unconditional jumps to different code segments.
-[Lab3 file](http://danielpacheco.dev/assemblylabs/Lab3/dpachec_273_001_3.s)
-### Lab 4
-In this lab, I differentiated between data, operands, results, and post-operation locations, and learned about various addressing modes in the Intel 80386, including register, immediate, direct, register indirect, direct indexed, and base indexed addressing. I applied these addressing modes to implement arrays, pointers, and data structures.
-[Lab4 file](http://danielpacheco.dev/assemblylabs/Lab4/dpachec_273_001_4.s)
-### Lab 5
-In this lab, I learned about the stack, its usage, and stack registers in programming. I implemented functions and subroutines in assembly language, understood the roles of the prolog and epilog, and worked with local variables. Additionally, I differentiated between iterative and recursive techniques and applied recursion to assembly programming.
-[Lab5 file](http://danielpacheco.dev/assemblylabs/Lab5/dpachec_273_001_55.s)
-#### Lab 6
-In this lab, I explored how to pass arguments and parameters to assembly functions and return values from them. I also learned how to handle parameters and returns in recursive functions, gaining a deeper understanding of function calls and stack management in assembly programming.
-[Lab6 file](http://danielpacheco.dev/assemblylabs/Lab6/dpachec_273_001_6.s)
+        <section id="featured" class="project-section" aria-labelledby="featured-title">
+            <div class="section-heading">
+                <p class="section-index">01 / Selected work</p>
+                <h2 id="featured-title">Featured projects</h2>
+            </div>
 
+            <article class="featured-project featured-project-primary">
+                <div class="project-number" aria-hidden="true">01</div>
+                <div class="featured-copy">
+                    <div class="project-meta">
+                        <span>C++</span>
+                        <span>Software design</span>
+                        <span>Capstone</span>
+                    </div>
+                    <h3>Multi-function utility suite</h3>
+                    <p>A menu-driven command-line application that brings five tools into one dependable interface: a calculator, Caesar cipher, statistics engine, password generator, and safe exit flow.</p>
+                    <ul class="project-details">
+                        <li>Separated features into focused source and header modules</li>
+                        <li>Added resilient type and range validation at every prompt</li>
+                        <li>Applied STL containers, modular arithmetic, and modern random generation</li>
+                    </ul>
+                    <a class="project-cta" href="https://github.com/dnoiro/utility_line_capstone_1" target="_blank" rel="noreferrer">
+                        View repository <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+                <div class="terminal-card" role="img" aria-label="Illustration of the utility program menu">
+                    <div class="terminal-bar"><span></span><span></span><span></span><p>utility_suite.cpp</p></div>
+                    <pre><code><span class="terminal-muted">// select a utility</span>
+<span class="terminal-prompt">$</span> ./utility_suite
 
+  <span class="terminal-number">01</span>  Calculator
+  <span class="terminal-number">02</span>  Caesar cipher
+  <span class="terminal-number">03</span>  Statistics
+  <span class="terminal-number">04</span>  Password generator
+  <span class="terminal-number">05</span>  Exit
+
+<span class="terminal-success">Ready for input_</span></code></pre>
+                </div>
+            </article>
+
+            <div class="featured-grid">
+                <article class="featured-project featured-project-compact">
+                    <div class="project-number" aria-hidden="true">02</div>
+                    <div class="project-meta">
+                        <span>Aerospace</span>
+                        <span>Team project</span>
+                    </div>
+                    <h3>Space Flight Design</h3>
+                    <p>A multidisciplinary rocket program designed to capture temperature, pressure, humidity, and other atmospheric measurements across changing altitude.</p>
+                    <div class="video-frame">
+                        <video controls preload="metadata" poster="/videos/rocketlaunch-poster.jpg" aria-label="Space Flight Design rocket launch">
+                            <source src="/videos/rocketlaunch.mp4" type="video/mp4">
+                            <source src="/videos/rocketlaunch.mov" type="video/quicktime">
+                            Your browser does not support embedded video. <a href="/videos/rocketlaunch.mp4">Download the launch video.</a>
+                        </video>
+                        <span class="video-label">Launch footage · 00:57</span>
+                    </div>
+                </article>
+
+                <article class="featured-project featured-project-compact power-project">
+                    <div class="project-number" aria-hidden="true">03</div>
+                    <div class="project-meta">
+                        <span>MATLAB</span>
+                        <span>Power systems</span>
+                    </div>
+                    <h3>Transmission network graph model</h3>
+                    <p>A power-grid monitoring concept that maps PMU data into a transmission network graph and applies discrete particle swarm optimization to improve topology awareness.</p>
+                    <div class="network-visual" aria-hidden="true">
+                        <svg viewBox="0 0 520 220" role="img">
+                            <g class="network-lines">
+                                <path d="M38 168 138 79 257 145 365 51 480 104"/>
+                                <path d="M38 168 174 188 257 145 424 184 480 104"/>
+                                <path d="M138 79 221 42 365 51 424 184"/>
+                            </g>
+                            <g class="network-nodes">
+                                <circle cx="38" cy="168" r="8"/><circle cx="138" cy="79" r="8"/>
+                                <circle cx="174" cy="188" r="8"/><circle cx="221" cy="42" r="8"/>
+                                <circle cx="257" cy="145" r="11"/><circle cx="365" cy="51" r="8"/>
+                                <circle cx="424" cy="184" r="8"/><circle cx="480" cy="104" r="8"/>
+                            </g>
+                        </svg>
+                        <div class="network-legend"><span></span> PMU topology map</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-section studies-section" aria-labelledby="studies-title">
+            <div class="section-heading">
+                <p class="section-index">02 / Signal studies</p>
+                <h2 id="studies-title">MATLAB notebooks</h2>
+                <p>Focused investigations in system response, frequency behavior, and signal transformation.</p>
+            </div>
+
+            <div class="study-list">
+                <article class="study-row">
+                    <div class="study-number">01</div>
+                    <div>
+                        <h3>System response &amp; stability</h3>
+                        <p>Compared transfer-function and zero-pole-gain models through impulse, step, Bode, and pole-zero analysis, including settling time, rise time, and overshoot.</p>
+                        <div class="project-meta"><span>Control systems</span><span>System modeling</span></div>
+                    </div>
+                    <a class="round-link" href="https://github.com/dnoiro/Matlab-Projects/blob/main/matlab6.pdf" target="_blank" rel="noreferrer" aria-label="Open System response and stability PDF">↗</a>
+                </article>
+
+                <article class="study-row">
+                    <div class="study-number">02</div>
+                    <div>
+                        <h3>Frequency response &amp; roll-off</h3>
+                        <p>Solved for system gain, plotted Bode magnitude, located −6 dB and −40 dB frequencies, and calculated roll-off in dB per octave.</p>
+                        <div class="project-meta"><span>Bode analysis</span><span>Transfer functions</span></div>
+                    </div>
+                    <a class="round-link" href="https://github.com/dnoiro/Matlab-Projects/blob/main/matlab5.pdf" target="_blank" rel="noreferrer" aria-label="Open Frequency response and roll-off PDF">↗</a>
+                </article>
+
+                <article class="study-row">
+                    <div class="study-number">03</div>
+                    <div>
+                        <h3>Signals &amp; Fourier transforms</h3>
+                        <p>Studied Fourier magnitude, noisy unipolar signals, convolution, power spectra, and weighted average frequency across multiple signal types.</p>
+                        <div class="project-meta"><span>FFT</span><span>Convolution</span><span>Noise</span></div>
+                    </div>
+                    <a class="round-link" href="https://github.com/dnoiro/Matlab-Projects/blob/main/matlab4.pdf" target="_blank" rel="noreferrer" aria-label="Open Signals and Fourier transforms PDF">↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="labs" class="project-section labs-section" aria-labelledby="labs-title">
+            <div class="section-heading">
+                <p class="section-index">03 / Low-level programming</p>
+                <h2 id="labs-title">x86 assembly lab series</h2>
+                <p>Six progressive labs moving from environment setup and addressing modes to stack frames, recursion, and function interfaces.</p>
+            </div>
+
+            <div class="lab-grid">
+                <article class="lab-card">
+                    <p class="lab-label">LAB 01</p>
+                    <h3>Build &amp; debug</h3>
+                    <p>Cross-platform assembly and C workflows across Windows and Linux.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab1/dpachec_273_001_1.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="lab-card">
+                    <p class="lab-label">LAB 02</p>
+                    <h3>Registers &amp; data</h3>
+                    <p>Global variables, direct and immediate addressing, and arithmetic operations.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab2/dpachec_273_001_2.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="lab-card">
+                    <p class="lab-label">LAB 03</p>
+                    <h3>Flags &amp; control flow</h3>
+                    <p>Comparisons, conditional jumps, labels, and translating compound logic.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab3/dpachec_273_001_3.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="lab-card">
+                    <p class="lab-label">LAB 04</p>
+                    <h3>Addressing modes</h3>
+                    <p>Indexed and indirect addressing applied to arrays, pointers, and structures.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab4/dpachec_273_001_4.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="lab-card">
+                    <p class="lab-label">LAB 05</p>
+                    <h3>Stack &amp; recursion</h3>
+                    <p>Subroutines, stack frames, local variables, prologues, and epilogues.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab5/dpachec_273_001_55.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="lab-card">
+                    <p class="lab-label">LAB 06</p>
+                    <h3>Function interfaces</h3>
+                    <p>Passing arguments, handling return values, and recursive function calls.</p>
+                    <a href="https://danielpacheco.dev/assemblylabs/Lab6/dpachec_273_001_6.s">View source <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-contact" aria-labelledby="contact-title">
+            <p class="project-kicker"><span aria-hidden="true"></span> Let’s build something</p>
+            <h2 id="contact-title">Interested in the work?</h2>
+            <p>I’m always open to thoughtful conversations about engineering, systems, and new opportunities.</p>
+            <div class="contact-actions">
+                <a class="project-cta" href="/contact-form.html">Start a conversation <span aria-hidden="true">→</span></a>
+                <a class="text-link" href="/">Back to home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="project-footer">
+        <p>Daniel Pacheco <span aria-hidden="true">·</span> Engineer &amp; lifelong learner</p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+</body>
+</html>
