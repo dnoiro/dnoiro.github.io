@@ -15,44 +15,26 @@ permalink: /certifcates/
     <link href="https://fonts.googleapis.com/css2?family=Esteban&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body class="inner-page certificates-page">
-    <header class="inner-header">
-        <a href="/">← Home</a>
-        <span>Daniel Pacheco</span>
-    </header>
+<body class="inner-page simple-page certificates-page">
+    <main class="simple-shell">
+        <a class="simple-back" href="/">← Back to home</a>
 
-    <main class="inner-shell">
-        <header class="inner-hero">
-            <p class="inner-kicker">Coursework &amp; credentials</p>
+        <header class="simple-page-intro">
             <h1>Certificates</h1>
-            <p>Training completed across programming, PCB design, development tools, and engineering software.</p>
+            <p>C++, PCB design, GitHub, Cadence, and MathWorks.</p>
         </header>
 
-        <nav class="category-nav" aria-label="Certificate categories">
-            <a href="#cpp">C++</a>
-            <a href="#altium">Altium</a>
-            <a href="#cadence">Cadence</a>
-            <a href="#github">GitHub</a>
-            <a href="#mathworks">MathWorks</a>
-        </nav>
-
-        <section id="cpp" class="certificate-section">
-            <div class="certificate-heading">
-                <h2>C++</h2>
-                <span>01</span>
-            </div>
-            <div class="certificate-grid certificate-grid-wide">
+        <section class="simple-section">
+            <h2>C++</h2>
+            <div class="simple-grid simple-grid-single">
                 <img src="/cpp_fundamentals.jpg" alt="C++ Programming Fundamentals certificate">
             </div>
         </section>
 
-        <section id="altium" class="certificate-section">
-            <div class="certificate-heading">
-                <h2>Altium Designer</h2>
-                <span>03</span>
-            </div>
-            <p class="certificate-note">Select a badge to view its credential.</p>
-            <div class="certificate-grid certificate-badges">
+        <section class="simple-section">
+            <h2>Altium Designer</h2>
+            <p class="simple-note">Select a badge to view its credential.</p>
+            <div class="simple-grid simple-badges">
                 <a href="https://www.credly.com/badges/dba31755-3db7-4077-8254-9d80c15e8c40/public_url" target="_blank" rel="noreferrer">
                     <img src="/cert-images/altium-accredited-pcb-design-essentials-on-demand.png" alt="Altium PCB Design Essentials badge" loading="lazy">
                 </a>
@@ -65,13 +47,10 @@ permalink: /certifcates/
             </div>
         </section>
 
-        <section id="cadence" class="certificate-section">
-            <div class="certificate-heading">
-                <h2>Cadence Design Systems</h2>
-                <span>03</span>
-            </div>
-            <p class="certificate-note">Select a badge to view its credential.</p>
-            <div class="certificate-grid certificate-badges">
+        <section class="simple-section">
+            <h2>Cadence Design Systems</h2>
+            <p class="simple-note">Select a badge to view its credential.</p>
+            <div class="simple-grid simple-badges">
                 <a href="https://www.credly.com/badges/6c65f588-802e-4584-a76d-cfb9c06b2bdd/public_url" target="_blank" rel="noreferrer">
                     <img src="/cert-images/xcelium-simulator-v24-03-exam.png" alt="Xcelium Simulator v24.03 badge" loading="lazy">
                 </a>
@@ -84,12 +63,9 @@ permalink: /certifcates/
             </div>
         </section>
 
-        <section id="github" class="certificate-section">
-            <div class="certificate-heading">
-                <h2>GitHub Foundations</h2>
-                <span>10</span>
-            </div>
-            <div class="certificate-grid">
+        <section class="simple-section">
+            <h2>GitHub Foundations</h2>
+            <div class="simple-grid simple-certificates">
                 <img src="/cert-images/github_security.jpg" alt="Maintain a secure repository using GitHub best practices certificate" loading="lazy">
                 <img src="/cert-images/github_innersource.jpg" alt="Manage an InnerSource program using GitHub certificate" loading="lazy">
                 <img src="/cert-images/github_opensource.jpg" alt="Contribute to an open-source project on GitHub certificate" loading="lazy">
@@ -103,12 +79,9 @@ permalink: /certifcates/
             </div>
         </section>
 
-        <section id="mathworks" class="certificate-section">
-            <div class="certificate-heading">
-                <h2>MathWorks</h2>
-                <span>04</span>
-            </div>
-            <div class="certificate-grid">
+        <section class="simple-section">
+            <h2>MathWorks</h2>
+            <div class="simple-grid simple-certificates">
                 <img src="/cert-images/mat_deeplearning.jpg" alt="Deep Learning with MATLAB certificate" loading="lazy">
                 <img src="/cert-images/mat_simulink.jpg" alt="Simulink Onramp certificate" loading="lazy">
                 <img src="/cert-images/mat_functions.jpg" alt="The How and Why of Writing Functions certificate" loading="lazy">
@@ -116,9 +89,5 @@ permalink: /certifcates/
             </div>
         </section>
     </main>
-
-    <footer class="inner-footer">
-        <a href="/">Back to home</a>
-    </footer>
 </body>
 </html>

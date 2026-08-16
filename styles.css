@@ -979,6 +979,163 @@ body.projects-page {
     }
 }
 
+/* Simpler inner-page presentation */
+.simple-page .simple-shell {
+    width: min(100% - 2rem, 900px);
+    margin: 0 auto;
+    padding: 2.5rem 0 4rem;
+}
+
+.simple-back {
+    display: inline-block;
+    margin-bottom: 3rem;
+    font-size: 0.85rem;
+    text-underline-offset: 0.25rem;
+}
+
+.simple-page-intro {
+    margin-bottom: 3rem;
+}
+
+.simple-page-intro h1,
+.simple-about h1 {
+    margin: 0;
+    font-size: clamp(2.3rem, 6vw, 3.5rem);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.simple-page-intro p,
+.simple-about-copy p,
+.simple-note {
+    color: #b8c4d5;
+    line-height: 1.65;
+}
+
+.simple-page-intro p {
+    margin: 0.75rem 0 0;
+}
+
+.simple-section {
+    padding: 2.5rem 0;
+    border-top: 1px solid #303b4a;
+}
+
+.simple-section h2 {
+    margin: 0 0 1.25rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.simple-note {
+    margin: -0.6rem 0 1.25rem;
+    font-size: 0.82rem;
+}
+
+.simple-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.simple-grid-single {
+    grid-template-columns: minmax(0, 32rem);
+}
+
+.simple-certificates {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.simple-badges {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.simple-grid img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #303b4a;
+    background: #ffffff;
+    object-fit: contain;
+}
+
+.simple-certificates img,
+.simple-grid-single img {
+    aspect-ratio: 11 / 8.5;
+}
+
+.simple-badges a {
+    display: block;
+    padding: 0.75rem;
+    border: 1px solid #303b4a;
+    background: #191d23;
+}
+
+.simple-badges a:hover {
+    border-color: #58a6ff;
+}
+
+.simple-badges img {
+    aspect-ratio: 1;
+    border: 0;
+    background: transparent;
+}
+
+.simple-about {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.9fr);
+    gap: clamp(2rem, 6vw, 4rem);
+    align-items: center;
+    padding-bottom: 3.5rem;
+}
+
+.simple-about-copy p {
+    margin: 1.15rem 0 0;
+}
+
+.simple-portrait {
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    margin: 0;
+    border: 1px solid #303b4a;
+    object-fit: cover;
+}
+
+.simple-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.simple-photo-grid img {
+    width: 100%;
+    height: 17rem;
+    margin: 0;
+    border: 1px solid #303b4a;
+    object-fit: cover;
+}
+
+@media (max-width: 650px) {
+    .simple-page .simple-shell {
+        padding-top: 1.5rem;
+    }
+
+    .simple-back {
+        margin-bottom: 2.5rem;
+    }
+
+    .simple-certificates,
+    .simple-badges,
+    .simple-about,
+    .simple-photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .simple-photo-grid img {
+        height: auto;
+        max-height: 28rem;
+    }
+}
+
 /* Certificates and about */
 html:has(body.inner-page) {
     background: #141414;
