@@ -1,1 +1,6 @@
-title: Back To Homepage
+title: Daniel Pacheco
+description: Electrical engineering portfolio — digital hardware and embedded systems.
+url: https://danielpacheco.dev
+exclude:
+  - README.md
+  - docs
