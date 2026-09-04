@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microcontroller peripheral labs — Daniel Pacheco</title>
+  <meta name="description" content="C coursework exploring the connection between physical inputs, interrupt handlers, and microcontroller peripherals.">
+  <meta name="theme-color" content="#112437">
+  <link rel="canonical" href="https://danielpacheco.dev/projects/microcontroller-labs/">
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="/" aria-label="Daniel Pacheco, home"><span class="monogram" aria-hidden="true">DP</span>Daniel Pacheco</a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="/projects/" aria-current="page">Projects</a>
+<a href="/aboutme/#experience">Experience</a>
+<a href="/aboutme/">About</a>
+<a href="/resume/">Résumé</a>
+<a href="/contact-form.html">Contact</a></nav>
+  </header>
+  <main id="main" class="shell" tabindex="-1">
+<header class="page-intro"><a class="breadcrumb" href="/projects/">← All projects</a><p class="eyebrow">Project case study</p><h1>Microcontroller peripheral labs</h1><p class="lead">C coursework exploring the connection between physical inputs, interrupt handlers, and microcontroller peripherals.</p></header><div class="case-summary"><div><span class="meta-label">Contribution / context</span>Coursework · C firmware implementations</div><div><span class="meta-label">Tools &amp; concepts</span>C · GPIO · Interrupts · Timers · PWM · SPI</div><div><span class="meta-label">Available evidence</span>Public source code</div></div><div class="case-body"><nav class="case-toc" aria-label="Case study sections"><a href="#overview">The problem</a><a href="#implementation">How the source is organized</a><a href="#verification">Evidence &amp; verification</a><a href="#next-steps">What would strengthen the project</a><a href="#artifacts">Inspect the work</a></nav><div class="prose"><section id="overview"><h2>The problem</h2><p>Responding to a button press or a timer event requires software to cooperate with the microcontroller’s hardware. These labs explore that boundary through GPIO configuration, interrupt service routines, timer setup, PWM output, and SPI transfers.</p><p>The work is preserved as separate C source files. The final program brings together button and timer interrupt handlers with LED and PWM output control; a separate lab explores SPI communication.</p></section><section id="implementation"><h2>How the source is organized</h2><div class="table-wrap"><table><thead><tr><th scope="col">Source</th><th scope="col">Responsibility</th><th scope="col">Hardware concepts</th></tr></thead><tbody><tr><td><a href="https://github.com/dnoiro/micro-final/blob/main/finalcode.c">finalcode.c</a></td><td>Configure inputs and outputs; handle button and timer events.</td><td>GPIO, external interrupts, Timer2, Timer3, OC1 PWM.</td></tr><tr><td><a href="https://github.com/dnoiro/micro-final/blob/main/lab9.c">lab9.c</a></td><td>Configure SPI1 as a master and transmit lookup bytes from a button interrupt.</td><td>SPI configuration, byte transfers, interrupt handling.</td></tr></tbody></table></div><h3>Events drive the output behavior</h3><p>The final source uses an external interrupt handler to update LED and PWM output control. A Timer3 handler provides a separate timed LED behavior. Timer2 and the output-compare peripheral provide the PWM mechanism.</p><h3>Peripheral setup is explicit</h3><p>The code exposes register configuration directly. This makes input/output direction, timer setup, interrupt flags, and peripheral control part of the implementation rather than hiding them behind a high-level library.</p></section><section id="verification"><h2>Evidence &amp; verification</h2><p>The public artifact is source code. It shows the peripheral configuration and intended event handling, but does not include a reproducible build configuration, a hardware test log, oscilloscope captures, or measured timing results.</p><div class="note">This is a source-level portfolio example. PWM frequency, interrupt latency, and SPI timing are not presented as measured results.</div></section><section id="next-steps"><h2>What would strengthen the project</h2><p>A documented board and toolchain setup would make the lab easier to reproduce. Useful next evidence would include logic-analyzer captures of SPI, measured PWM output, and checks for repeated button presses and interrupt-flag handling.</p></section><section id="artifacts"><h2>Inspect the work</h2><div class="artifact-links"><a class="button" href="https://github.com/dnoiro/micro-final">Open repository ↗</a><a class="button secondary" href="https://github.com/dnoiro/micro-final/blob/main/finalcode.c">Final C source</a><a class="button secondary" href="https://github.com/dnoiro/micro-final/blob/main/lab9.c">SPI source</a></div></section></div></div>
+  </main>
+  <footer class="site-footer shell">
+    <p>Daniel Pacheco · Electrical engineer<br>South Carolina</p>
+    <nav class="footer-links" aria-label="Footer navigation"><a href="/contact-form.html">Get in touch</a><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Beyond engineering</a></nav>
+  </footer>
+</body>
+</html>
