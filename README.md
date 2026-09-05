@@ -22,3 +22,13 @@ Project claims should stay tied to linked source and artifacts. Do not promote t
 ## Validation and design rationale
 
 See `docs/redesign-notes.md` for the research mapping, content decisions, and validation record. The proposed redesign is intended for review before merging into the branch that publishes GitHub Pages.
+
+## Portfolio UI redesign
+
+The portfolio uses a custom charcoal and lime design, responsive navigation, source-backed project layouts, and a printable résumé. All existing URLs, certificate assets, launch footage, and the Formspree contact integration are retained. The UI has no package dependencies.
+
+GitHub Pages serves the root HTML and shared `styles.css` directly. The `CNAME` retains `danielpacheco.dev`. A proposed redesign branch can be reviewed before merging into `main`.
+
+For the private Sites copy, run `node scripts/stage-site.mjs` to assemble only published pages and their local assets in `dist/`. The Sites manifest identifies that output directory. Generated staging output is ignored by Git; authored root files remain the source of truth.
+
+Mobile navigation progressively enhances the regular navigation. The contact form retains native POST when JavaScript is unavailable. The résumé’s **Print / save PDF** action opens the browser’s print dialog.
