@@ -4,3 +4,6 @@ url: https://danielpacheco.dev
 exclude:
   - README.md
   - docs
+  - dist
+  - scripts
+  - .openai

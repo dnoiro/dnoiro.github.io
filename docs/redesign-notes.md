@@ -1,38 +1,32 @@
-# Portfolio redesign notes
+# Portfolio design and content notes
 
-## Design basis
+## September 2026 revision
 
-The user-provided [Engineering Portfolio Research](https://chatgpt.com/s/t_6a9b38c847988191aa60e772d8b4b377), including its linked university-engineering-portfolio-research document, guided the redesign.
+The requested direction is a simple student or researcher website, with greater attention to wording. The revision removes slogans, oversized display text, decorative diagrams, project cards, promotional section titles, and the large contact footer. A narrow white page, regular text links, modest headings, and a small existing portrait keep the focus on the content.
 
-| Research recommendation | Implementation |
-| --- | --- |
-| Make identity and engineering focus apparent immediately | Name-led homepage, concise role statement, current context, project and résumé actions |
-| Prioritize a few well-supported projects | Public embedded C, assembly/C integration, and C++ repositories lead the homepage |
-| Show engineering reasoning and evidence | Individual case studies with problem, implementation, available verification evidence, next steps, and artifacts |
-| Tie skills to work | Capability groups link to relevant case studies; current FPGA study is labeled separately |
-| Keep professional context easy to reach | Consistent navigation, experience and education, readable résumé, contact page |
-| Keep certificates and personal details secondary | Footer links to certificate collections and personal interests |
-| Use purposeful visuals and accessible navigation | Source-flow diagram, existing launch footage and photos, keyboard focus, skip links, mobile layouts, reduced-motion support |
+## References inspected
 
-## Factual and content decisions
+- [Chiling Gabriela Han](https://chilinghan.github.io/) — site identifies a Stanford computer science and electrical engineering undergraduate. Short factual introduction, specific research and project descriptions, and direct code links.
+- [Ihyun Nam](https://ihyunnam.github.io/) — site identifies a Stanford computer science PhD student. Ordinary section names, precise interests, and concise entries for academic work.
+- [Shresth Verma](https://vermashresth.github.io/) — site identifies a Harvard PhD student. Factual role and research introduction, previous experience in paragraphs, and structured publication entries.
+- [Andrew Kao](https://andrew-kao.github.io/) — site identifies a Harvard economics PhD student. Minimal navigation and clear separation of completed and ongoing work.
 
-- Embedded C, assembly, and C++ source links were inspected through GitHub. Source availability is distinguished from hardware verification or passing tests.
-- The PYNQ-Z2 repository identifies itself as a resource collection; it is included as learning material only.
-- Existing MATLAB links pointed at a private repository. Descriptions remain in the archive, but private reports are not copied into the public website.
-- Broken assembly source URLs now point directly to the public repository, preserving case-sensitive paths and Lab 5's `55` filename.
-- The rocket video remains a team-project artifact without invented personal subsystem ownership.
-- The duplicated Xcelium badge that linked to an Altium credential was removed; the separately supplied Xcelium link remains.
-- Professional background is summarized from the user's established context. No salary, GPA, employer infrastructure identifiers, private contact details, or internal project artifacts are added.
-- No email address or LinkedIn URL was available in the repository; none is guessed. The existing contact form and GitHub profile provide contact routes.
-- The résumé is an HTML summary with print/PDF styling, not a claimed copy of a previously uploaded résumé.
-- Existing `/projects/`, `/aboutme/`, `/contact-form.html`, and `/miscellaneous/` routes are preserved. `/certifcates/` redirects to the corrected `/certificates/` route.
+These references informed organization and tone. The implementation and wording are original; no university affiliation, credentials, biography, or publication record is borrowed.
 
-## Validation
+## Wording decisions
 
-- Checked all 13 HTML pages for balanced structure, exactly one H1, unique IDs, viewport/description metadata, image alt attributes, and form labels.
-- Resolved 292 local link/asset references, including fragment targets; no missing references.
-- Confirmed JavaScript syntax for the contact and résumé scripts.
-- Exercised contact success, service rejection, network error, and timeout with mocked responses: successful sends reset the form; failures preserve input; all paths restore the button.
-- Exercised the résumé print action with a mocked print function.
-- `git diff --check` passed.
-- No build is required for the authored static HTML. Browser visual QA was not performed, and no live contact messages were submitted.
+- Name the actual projects: microcontroller peripheral labs, x86 assembly and C integration, and C++ command-line utilities.
+- Describe current employment, education, and technical interests directly.
+- Keep Verilog and FPGA implementation under current study.
+- Replace generic discussions of "the problem" with concrete implementation notes.
+- Retain coursework context and source links without repeating disclaimers about unperformed tests.
+- Do not claim measured timing, performance improvements, comprehensive input validation, security properties, or test results.
+- Keep the SPI lab separate from the final microcontroller program.
+- Describe Lab 5's global input/output and Lab 6's stack argument and EAX return accurately.
+- Preserve contact submission, résumé printing, certificate galleries, personal photographs, existing routes, and redirects.
+
+## Source checks
+
+Implementation descriptions were checked against `micro-final/finalcode.c`, `micro-final/lab9.c`, the Lab 5 and Lab 6 assembly and C drivers in `assemblylabs`, and `utility_line_capstone_1/main.cpp` and `statistical_calculator.cpp`.
+
+Local link and asset references, HTML headings and identifiers, contact form attributes, and JavaScript syntax are checked before saving. No live contact submission or browser visual testing is performed.

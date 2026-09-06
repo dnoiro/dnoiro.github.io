@@ -3,29 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>x86 assembly &amp;amp; C integration — Daniel Pacheco</title>
-  <meta name="description" content="Six labs exploring the interface between C programs, assembly routines, registers, and the stack.">
-  <meta name="theme-color" content="#112437">
+  <title>x86 assembly and C integration — Daniel Pacheco</title>
+  <meta name="description" content="x86 assembly coursework covering registers, addressing, function calls, and recursion.">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://danielpacheco.dev/projects/assembly-labs/">
   <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header shell">
-    <a class="wordmark" href="/" aria-label="Daniel Pacheco, home"><span class="monogram" aria-hidden="true">DP</span>Daniel Pacheco</a>
-    <nav class="site-nav" aria-label="Main navigation"><a href="/projects/" aria-current="page">Projects</a>
-<a href="/aboutme/#experience">Experience</a>
+    <a class="site-name" href="/">Daniel Pacheco</a>
+    <nav aria-label="Main navigation"><a href="/">Home</a>
+<a href="/projects/" aria-current="page">Projects</a>
 <a href="/aboutme/">About</a>
 <a href="/resume/">Résumé</a>
 <a href="/contact-form.html">Contact</a></nav>
   </header>
-  <main id="main" class="shell" tabindex="-1">
-<header class="page-intro"><a class="breadcrumb" href="/projects/">← All projects</a><p class="eyebrow">Project case study</p><h1>x86 assembly &amp; C integration</h1><p class="lead">Six labs exploring the interface between C programs, assembly routines, registers, and the stack.</p></header><div class="case-summary"><div><span class="meta-label">Contribution / context</span>Coursework · Assembly routines and C drivers</div><div><span class="meta-label">Tools &amp; concepts</span>x86 assembly · C · Stack frames · Recursion</div><div><span class="meta-label">Available evidence</span>Assembly source and C driver programs</div></div><div class="case-body"><nav class="case-toc" aria-label="Case study sections"><a href="#overview">The problem</a><a href="#implementation">From C calls to stack frames</a><a href="#verification">Evidence &amp; verification</a><a href="#next-steps">What would strengthen the project</a><a href="#artifacts">Inspect the work</a></nav><div class="prose"><section id="overview"><h2>The problem</h2><p>A function call looks simple in C, but its implementation depends on registers, memory, argument passing, and return values. This lab series works through those mechanisms explicitly in x86 assembly.</p><p>The sequence progresses from basic build and debug workflows to addressing modes, control flow, stack frames, and recursive function calls.</p></section><section id="implementation"><h2>From C calls to stack frames</h2><h3>Fibonacci and factorial</h3><p>The later labs provide concrete examples of recursion. Lab 5 contains a Fibonacci routine, while Lab 6 contains a factorial routine with a C driver. These examples make the relationship between call frames, saved state, and return values inspectable in source.</p><div class="table-wrap"><table><thead><tr><th scope="col">Lab</th><th scope="col">Focus</th><th scope="col">Source</th></tr></thead><tbody><tr><td>01</td><td>Build and debug</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab1/dpachec_273_001_1.s">Lab 1 assembly</a></td></tr><tr><td>02</td><td>Registers and data</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab2/dpachec_273_001_2.s">Lab 2 assembly</a></td></tr><tr><td>03</td><td>Flags and control flow</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab3/dpachec_273_001_3.s">Lab 3 assembly</a></td></tr><tr><td>04</td><td>Addressing modes</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab4/dpachec_273_001_4.s">Lab 4 assembly</a></td></tr><tr><td>05</td><td>Stack frames and Fibonacci</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab5/dpachec_273_001_55.s">Lab 5 assembly</a></td></tr><tr><td>06</td><td>Function interfaces and factorial</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/dpachec_273_001_6.s">Lab 6 assembly</a></td></tr></tbody></table></div><h3>Small programs expose the interface</h3><p>The C drivers show how the routines are called. Keeping the caller and assembly implementation together helps connect the function interface to argument handling and the return path.</p></section><section id="verification"><h2>Evidence &amp; verification</h2><p>The repository contains assembly implementations and C drivers. The drivers provide an intended way to exercise the routines; their presence alone does not establish that all inputs pass.</p><p>No automated regression suite or recorded test results are included in the public repository. A useful validation extension would compare the assembly routines with a C reference for base cases, representative values, and inputs near the chosen integer range.</p></section><section id="next-steps"><h2>What would strengthen the project</h2><p>A reproducible toolchain guide and a small noninteractive test driver would turn these coursework artifacts into a clearer demonstration. Debugger captures could illustrate the stack at each recursive call and show how the return value propagates back to C.</p></section><section id="artifacts"><h2>Inspect the work</h2><div class="artifact-links"><a class="button" href="https://github.com/dnoiro/assemblylabs">Open repository ↗</a><a class="button secondary" href="https://github.com/dnoiro/assemblylabs/blob/main/Lab5/dpachec_273_001_55.s">Fibonacci source</a><a class="button secondary" href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/dpachec_273_001_6.s">Factorial source</a><a class="button secondary" href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/lab6drv.c">C driver</a></div></section></div></div>
+  <main class="shell" id="main" tabindex="-1">
+
+<header class="page-heading"><p class="breadcrumb"><a href="/projects/">Projects</a></p><h1>x86 assembly and C integration</h1><p class="meta">Coursework · x86 assembly, C, stack frames, recursion</p></header>
+<p>I completed six assembly labs covering registers, addressing modes, control flow, and function calls. In the later labs, I implemented recursive Fibonacci and factorial routines in x86 assembly and called them from C programs.</p>
+<p class="project-links"><a href="https://github.com/dnoiro/assemblylabs">Repository</a><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab5/dpachec_273_001_55.s">Fibonacci</a><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/dpachec_273_001_6.s">Factorial</a><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/lab6drv.c">C driver</a></p>
+<section class="content-section" id="implementation"><h2>Recursive routines</h2>
+<h3>Fibonacci</h3><p>The Fibonacci routine uses a shared global variable for input and output. It allocates stack space to preserve the original argument and an intermediate result while making recursive calls for <code>n − 1</code> and <code>n − 2</code>.</p>
+<h3>Factorial</h3><p>The factorial routine reads its argument from the stack, passes <code>n − 1</code> to a recursive call, and multiplies the returned value by the original argument. It returns its result in <code>EAX</code>. The accompanying C driver calls the assembly routine and prints the result.</p>
+</section>
+<section class="content-section" id="artifacts"><h2>Lab source</h2>
+<table><thead><tr><th scope="col">Lab</th><th scope="col">Topic</th><th scope="col">Source</th></tr></thead><tbody>
+<tr><td>1</td><td>Byte summation and loops</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab1/dpachec_273_001_1.s">Assembly</a></td></tr>
+<tr><td>2</td><td>Register arithmetic</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab2/dpachec_273_001_2.s">Assembly</a></td></tr>
+<tr><td>3</td><td>Comparisons and conditional branches</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab3/dpachec_273_001_3.s">Assembly</a></td></tr>
+<tr><td>4</td><td>Indexed addressing and string parsing</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab4/dpachec_273_001_4.s">Assembly</a></td></tr>
+<tr><td>5</td><td>Stack frames and Fibonacci</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab5/dpachec_273_001_55.s">Assembly</a> · <a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab5/lab5drv.c">C driver</a></td></tr>
+<tr><td>6</td><td>Function interfaces and factorial</td><td><a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/dpachec_273_001_6.s">Assembly</a> · <a href="https://github.com/dnoiro/assemblylabs/blob/main/Lab6/lab6drv.c">C driver</a></td></tr>
+</tbody></table></section>
+
   </main>
   <footer class="site-footer shell">
-    <p>Daniel Pacheco · Electrical engineer<br>South Carolina</p>
-    <nav class="footer-links" aria-label="Footer navigation"><a href="/contact-form.html">Get in touch</a><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Beyond engineering</a></nav>
+    <span>Daniel Pacheco</span>
+    <nav aria-label="Footer navigation"><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Personal</a></nav>
   </footer>
 </body>
 </html>
