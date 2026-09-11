@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Résumé — Daniel Pacheco</title>
-  <meta name="description" content="Daniel Pacheco’s education, engineering experience, selected projects, and technical skills.">
+  <meta name="description" content="Daniel Pacheco’s résumé: Altium PCB design, Verilog and FPGA labs, engineering experience, education, and technical training.">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://danielpacheco.dev/resume/">
   <link rel="stylesheet" href="/styles.css">
@@ -23,12 +23,61 @@
   </header>
   <main class="shell" id="main" tabindex="-1">
 
-<header class="page-heading resume-heading"><h1>Daniel Pacheco</h1><p>Electrical engineer · South Carolina</p><p><a href="https://github.com/dnoiro">github.com/dnoiro</a> · <a href="/contact-form.html">Contact</a></p><p class="no-print"><button class="button print-button" id="print-resume" type="button">Print / save PDF</button></p></header>
+<header class="page-heading resume-heading">
+  <h1>Daniel Pacheco, EIT</h1>
+  <p>Electrical engineer · PCB design and FPGA development · South Carolina</p>
+  <p><a href="https://danielpacheco.dev">danielpacheco.dev</a> · <a href="https://github.com/dnoiro">GitHub</a> · <a href="https://linkedin.com/in/dpachec">LinkedIn</a> · <a href="/contact-form.html">Contact</a></p>
+  <p class="no-print"><button class="button print-button" id="print-resume" type="button">Print / save PDF</button></p>
+</header>
 <div class="resume-sheet">
-<section aria-labelledby="resume-education"><h2 id="resume-education">Education &amp; qualification</h2><div class="resume-item"><h3>Clemson University — B.S. Electrical Engineering</h3><p class="resume-meta">May 2025 · Engineer-in-Training; FE exam passed</p><p>Digital design, computer organization, microcontroller interfacing, programming, signals, and schematic/PCB design coursework.</p></div></section>
-<section aria-labelledby="resume-experience"><h2 id="resume-experience">Experience</h2><div class="resume-item"><h3>Santee Cooper — Energy Management System Engineer</h3><p class="resume-meta">June 2025 – Present · Moncks Corner, SC</p><ul><li>Work with real-time SCADA telemetry, engineering displays, alarms, and system data.</li><li>Support historian data workflows, engineering maintenance, and troubleshooting using Linux, Git, scripting, and database tools.</li></ul></div></section>
-<section aria-labelledby="resume-projects"><h2 id="resume-projects">Selected projects</h2><div class="resume-item"><h3><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h3><p>C firmware coursework involving GPIO, external interrupts, timers, PWM, and SPI; public source includes event handlers and peripheral configuration.</p></div><div class="resume-item"><h3><a href="/projects/assembly-labs/">x86 assembly &amp; C integration</a></h3><p>Six labs covering registers, addressing modes, control flow, stack frames, and recursion; Fibonacci and factorial implementations with C driver examples.</p></div><div class="resume-item"><h3><a href="/projects/utility-suite/">C++ command-line utilities</a></h3><p>Menu-driven arithmetic, statistics, and text exercises organized into separate implementation/header modules with input-handling logic.</p></div></section>
-<section aria-labelledby="resume-skills"><h2 id="resume-skills">Technical skills</h2><p><strong>Programming:</strong> C, C++, x86 assembly; Python scripting and SQL for engineering workflows.</p><p><strong>Tools:</strong> Linux, Git, Altium Designer; Vivado for current FPGA study.</p><p><strong>Current study:</strong> Verilog, RTL testbench fundamentals, and PYNQ-Z2 FPGA implementation.</p></section>
+  <section aria-labelledby="resume-education">
+    <h2 id="resume-education">Education</h2>
+    <div class="resume-item"><h3>Clemson University — B.S. Electrical Engineering</h3><p class="resume-meta">May 2025 · Engineer-in-Training; FE exam passed</p><p>Coursework: digital design, computer organization, microcontroller interfacing, signal processing.</p></div>
+  </section>
+  <section aria-labelledby="resume-skills">
+    <h2 id="resume-skills">Technical skills</h2>
+    <p><strong>PCB / embedded:</strong> Altium Designer, schematic capture, multilayer PCB layout, SPI, I2C, UART, GPIO, ESD protection.</p>
+    <p><strong>FPGA:</strong> Verilog, AMD Vivado, testbenches, behavioral simulation, synthesis, implementation, XDC pin constraints, PYNQ-Z2 / Zynq-7000.</p>
+    <p><strong>Programming / tools:</strong> C, C++, Python, MATLAB/Simulink, Linux, Git, SQL, Jama Connect.</p>
+  </section>
+  <section aria-labelledby="resume-experience">
+    <h2 id="resume-experience">Relevant engineering experience</h2>
+    <div class="resume-item">
+      <h3>Aeronix Technologies Group / Clemson — Laboratory Assistant</h3>
+      <p class="resume-meta">January–May 2025 · Senior Design II · Clemson, SC</p>
+      <ul>
+        <li>Created Altium schematics and multilayer PCB layouts for assigned embedded hardware circuits, including an LSM6DSOX 6-axis IMU over SPI with pin assignments and interrupt routing.</li>
+        <li>Designed a Micro-USB Type-B programming/debug interface with ESD protection and a 44-pin expansion header exposing GPIO, SPI, I2C, and UART.</li>
+        <li>Produced hardware documentation and supported PCB subsystem design reviews.</li>
+      </ul>
+    </div>
+    <div class="resume-item">
+      <h3>Santee Cooper — Energy Management System Engineer</h3>
+      <p class="resume-meta">June 2025–present · Moncks Corner, SC</p>
+      <ul>
+        <li>Execute test planning and factory acceptance testing in Jama Connect; perform SCADA checkouts with relay/protection teams and troubleshoot telemetry, alarms, and system models.</li>
+        <li>Implemented DC battery-bank monitoring and alarm logic; developed a C storm-response dashboard to track cooperative feeds, outages, and restoration status.</li>
+        <li>Use Python, SQL, Linux, and Git for engineering data analysis, troubleshooting, and change tracking.</li>
+      </ul>
+    </div>
+  </section>
+  <section aria-labelledby="resume-projects">
+    <h2 id="resume-projects">Selected projects</h2>
+    <div class="resume-item">
+      <h3><a href="/projects/fpga-labs/">Verilog and FPGA labs</a></h3>
+      <p class="resume-meta">Independent study · 2026</p>
+      <ul>
+        <li>Developed decoders, priority encoders, adders, and ROM-based comparators in Verilog; initialized ROM with <code>$readmemb</code> and explored Block Memory Generator IP.</li>
+        <li>Exercised all 16 input combinations of a 2-bit ROM comparator in a simulation testbench. Implemented a 2-to-1 multiplexer on PYNQ-Z2 and verified switch-to-LED behavior.</li>
+      </ul>
+    </div>
+    <div class="resume-item"><h3><a href="/projects/altium-mixedsim/">RC circuit Monte Carlo study</a></h3><p>Recreated an Altium course exercise to compare component-tolerance effects using Gaussian, uniform, and Worst Case Monte Carlo simulations.</p></div>
+    <div class="resume-item"><h3><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h3><p>C firmware coursework covering GPIO, button/timer interrupts, PWM, and a separate SPI master exercise.</p></div>
+  </section>
+  <section aria-labelledby="resume-training">
+    <h2 id="resume-training">Training and credentials</h2>
+    <p>Altium PCB Design Essentials, Skilled Engineer, and Mixed-Signal Simulation; Cadence Allegro PCB Editor Basic Techniques v22.1 and Xcelium Simulator v24.03. <a href="/certificates/">View credentials.</a></p>
+  </section>
 </div>
   </main>
   <footer class="site-footer shell">

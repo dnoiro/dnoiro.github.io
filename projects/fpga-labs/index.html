@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verilog and FPGA labs — Daniel Pacheco</title>
+  <meta name="description" content="Independent Verilog and Vivado labs covering digital logic, ROM initialization, testbench simulation, XDC constraints, and PYNQ-Z2 board programming.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://danielpacheco.dev/projects/fpga-labs/">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="site-name" href="/">Daniel Pacheco</a>
+    <nav aria-label="Main navigation"><a href="/">Home</a>
+<a href="/projects/" aria-current="page">Projects</a>
+<a href="/aboutme/">About</a>
+<a href="/resume/">Résumé</a>
+<a href="/contact-form.html">Contact</a></nav>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+
+<header class="page-heading">
+  <p class="breadcrumb"><a href="/projects/">Projects</a></p>
+  <h1>Verilog and FPGA labs</h1>
+  <p class="meta">Independent study · 2026 · Verilog, AMD Vivado, PYNQ-Z2 / Zynq-7000</p>
+</header>
+<p>I’m using small digital-design exercises to practice writing Verilog, checking behavior in simulation, and implementing designs on an FPGA. My recent labs cover combinational logic, ROM-based designs, and the Vivado implementation flow.</p>
+<section class="content-section" aria-labelledby="rtl">
+  <h2 id="rtl">RTL and simulation</h2>
+  <ul>
+    <li>Developed Verilog modules for decoders, priority encoders, adders, and ROM-based comparators.</li>
+    <li>Initialized ROM contents with <code>$readmemb</code> and explored Vivado’s Block Memory Generator IP and COE initialization.</li>
+    <li>Wrote a testbench exercising all 16 input combinations of a 2-bit ROM comparator and inspected its outputs in Vivado behavioral simulation.</li>
+  </ul>
+</section>
+<section class="content-section" aria-labelledby="implementation">
+  <h2 id="implementation">Board implementation</h2>
+  <p>For a 2-to-1 multiplexer, I assigned PYNQ-Z2 pins with XDC constraints, ran synthesis and implementation, generated a bitstream, and programmed the board. I verified the switch-to-LED behavior on the hardware.</p>
+  <p>I also built a Zynq processing-system design in Vivado IP Integrator, generated the HDL wrapper and bitstream, and used the PYNQ-Z2 setup to control board LEDs.</p>
+</section>
+<section class="content-section" aria-labelledby="related">
+  <h2 id="related">Related work</h2>
+  <p>My <a href="/projects/microcontroller-labs/">microcontroller labs</a> cover peripheral configuration, interrupts, PWM, and SPI in C. My <a href="/projects/embedded-pcb/">senior design PCB work</a> covers the schematic and layout side of embedded interfaces.</p>
+  <p class="project-links"><a href="/resume/">Résumé</a><a href="/certificates/">Training and credentials</a></p>
+</section>
+  </main>
+  <footer class="site-footer shell">
+    <span>Daniel Pacheco</span>
+    <nav aria-label="Footer navigation"><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Personal</a></nav>
+  </footer>
+</body>
+</html>
+
