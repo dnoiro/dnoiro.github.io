@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RC circuit Monte Carlo study — Daniel Pacheco</title>
+  <meta name="description" content="Recreated Altium MixedSim course exercise comparing Gaussian, uniform, and Worst Case Monte Carlo output traces for a loaded RC circuit.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://danielpacheco.dev/projects/altium-mixedsim/">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="site-name" href="/">Daniel Pacheco</a>
+    <nav aria-label="Main navigation"><a href="/">Home</a>
+<a href="/projects/" aria-current="page">Projects</a>
+<a href="/aboutme/">About</a>
+<a href="/resume/">Résumé</a>
+<a href="/contact-form.html">Contact</a></nav>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+
+<header class="page-heading">
+  <p class="breadcrumb"><a href="/projects/">Projects</a></p>
+  <h1>RC circuit Monte Carlo study</h1>
+  <p class="meta">Recreated course exercise · Altium Designer, MixedSim</p>
+</header>
+<p>Recreated an Altium course exercise to explore component-tolerance effects in a loaded RC circuit. Compared simulated output-voltage traces using Gaussian, uniform, and Altium’s Worst Case Monte Carlo distributions.</p>
+<p class="project-links"><a href="/certificates/#altium-mixed-signal">Related Altium training</a></p>
+
+<section class="content-section" aria-labelledby="circuit">
+  <h2 id="circuit">Circuit</h2>
+  <p>The course circuit uses a 500 Ω series resistor, a 7 µF shunt capacitor, and a 1 kΩ load. The schematic specifies a 100 Hz sinusoidal source with a 10 V offset and 10 V amplitude.</p>
+</section>
+<section class="content-section" aria-label="Circuit schematic">
+  <figure>
+    <a href="/altium_mixedsim/montecarlo_circuit.png"><img src="/altium_mixedsim/montecarlo_circuit.png" alt="Loaded RC circuit schematic with a series resistor, shunt capacitor, and resistive load." loading="lazy" decoding="async"></a>
+    <figcaption>Loaded RC circuit recreated from the Altium course exercise. <a href="/altium_mixedsim/montecarlo_circuit.png">View full-size image</a>.</figcaption>
+  </figure>
+</section>
+
+<section class="content-section" aria-labelledby="results">
+  <h2 id="results">Simulation results</h2>
+  <p>Each screenshot shows 30 labeled output-voltage traces over 0–30 ms. The overlays illustrate variation in the simulated response for the course setup.</p>
+</section>
+<section class="content-section" aria-labelledby="gaussian">
+  <h3 id="gaussian">Gaussian distribution</h3>
+  <figure>
+    <a href="/altium_mixedsim/gaussian_montecarlo.png"><img src="/altium_mixedsim/gaussian_montecarlo.png" alt="Overlaid output-voltage traces from the Gaussian Monte Carlo exercise." loading="lazy" decoding="async"></a>
+    <figcaption>Simulated output-voltage traces — Gaussian distribution. <a href="/altium_mixedsim/gaussian_montecarlo.png">View full-size image</a>.</figcaption>
+  </figure>
+</section>
+<section class="content-section" aria-labelledby="uniform">
+  <h3 id="uniform">Uniform distribution</h3>
+  <figure>
+    <a href="/altium_mixedsim/uniform_montecarlo.png"><img src="/altium_mixedsim/uniform_montecarlo.png" alt="Overlaid output-voltage traces from the uniform Monte Carlo exercise." loading="lazy" decoding="async"></a>
+    <figcaption>Simulated output-voltage traces — uniform distribution. <a href="/altium_mixedsim/uniform_montecarlo.png">View full-size image</a>.</figcaption>
+  </figure>
+</section>
+<section class="content-section" aria-labelledby="worst-case">
+  <h3 id="worst-case">Altium’s Worst Case distribution</h3>
+  <figure>
+    <a href="/altium_mixedsim/worstcase_montecarlo.png"><img src="/altium_mixedsim/worstcase_montecarlo.png" alt="Overlaid output-voltage traces from the Altium Worst Case Monte Carlo exercise." loading="lazy" decoding="async"></a>
+    <figcaption>Simulated output-voltage traces — Altium’s Worst Case distribution. <a href="/altium_mixedsim/worstcase_montecarlo.png">View full-size image</a>.</figcaption>
+  </figure>
+</section>
+
+<section class="content-section" aria-labelledby="scope">
+  <h2 id="scope">Scope</h2>
+  <p>This is a reproduced training exercise. The screenshots document simulation output; they do not establish measured hardware performance, manufacturing yield, or guaranteed worst-case limits.</p>
+  <p>The uploaded images do not include the component-tolerance settings or the complete simulation configuration. Altium’s Worst Case distribution randomly selects tolerance endpoints; these plots alone do not demonstrate exhaustive coverage of all combinations.</p>
+  <p><a href="https://www.altium.com/documentation/altium-designer/circuit-simulation/configuring-running#monte-carlo">Altium documentation: Monte Carlo analysis</a></p>
+</section>
+
+  </main>
+  <footer class="site-footer shell">
+    <span>Daniel Pacheco</span>
+    <nav aria-label="Footer navigation"><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Personal</a></nav>
+  </footer>
+</body>
+</html>
+
