@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects — Daniel Pacheco</title>
-  <meta name="description" content="Embedded C, x86 assembly, C++ projects, and circuit-simulation coursework by Daniel Pacheco.">
+  <meta name="description" content="PCB design in Altium, Verilog and Vivado FPGA labs, circuit simulation, and embedded programming projects by Daniel Pacheco.">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://danielpacheco.dev/projects/">
   <link rel="stylesheet" href="/styles.css">
@@ -23,38 +23,54 @@
   </header>
   <main class="shell" id="main" tabindex="-1">
 
-<header class="page-heading"><h1>Projects</h1><p>Coursework, programming projects, and simulation exercises, with implementation notes and supporting files.</p></header>
-<section aria-label="Project descriptions"><article class="project-entry">
-  <h2><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h2>
+<header class="page-heading"><h1>Projects</h1><p>PCB design, FPGA labs, and embedded programming, with notes on my contributions and the work completed.</p></header>
+<section aria-labelledby="hardware-projects"><h2 id="hardware-projects">PCB and FPGA work</h2>
+<article class="project-entry">
+  <h3><a href="/projects/embedded-pcb/">Embedded hardware PCB design</a></h3>
+  <p class="meta">Senior Design II · Aeronix / Clemson · Altium Designer</p>
+  <p>Schematic and multilayer PCB layout for assigned embedded hardware circuits: an SPI-connected IMU, a USB programming/debug interface with ESD protection, and a 44-pin expansion header.</p>
+  <p class="project-links"><a href="/projects/embedded-pcb/">Details</a></p>
+</article>
+<article class="project-entry">
+  <h3><a href="/projects/fpga-labs/">Verilog and FPGA labs</a></h3>
+  <p class="meta">Independent study · Verilog, Vivado, PYNQ-Z2</p>
+  <p>Digital logic and ROM-based designs with simulation testbenches. Board exercises include a multiplexer implemented through XDC constraints, synthesis, implementation, and bitstream programming.</p>
+  <p class="project-links"><a href="/projects/fpga-labs/">Details</a></p>
+</article>
+<article class="project-entry">
+  <h3><a href="/projects/altium-mixedsim/">RC circuit Monte Carlo study</a></h3>
+  <p class="meta">Recreated course exercise · Altium Designer, MixedSim</p>
+  <p>An Altium course exercise comparing the effect of component tolerances on a loaded RC circuit, using Gaussian, uniform, and Worst Case Monte Carlo simulations.</p>
+  <p class="project-links"><a href="/projects/altium-mixedsim/">Details</a></p>
+</article>
+</section>
+<section class="content-section" aria-labelledby="software-projects"><h2 id="software-projects">Embedded and software coursework</h2>
+<article class="project-entry">
+  <h3><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h3>
   <p class="meta">Coursework · C, GPIO, interrupts, PWM, SPI</p>
   <p>C firmware for button and timer interrupts, LED control, and PWM output. A separate lab configures an SPI master to transmit data in response to a button interrupt.</p>
   <p class="project-links"><a href="/projects/microcontroller-labs/">Details</a><a href="https://github.com/dnoiro/micro-final">Code</a></p>
 </article>
 <article class="project-entry">
-  <h2><a href="/projects/assembly-labs/">x86 assembly and C integration</a></h2>
+  <h3><a href="/projects/assembly-labs/">x86 assembly and C integration</a></h3>
   <p class="meta">Coursework · x86 assembly, C</p>
   <p>Six labs covering registers, addressing modes, control flow, and function calls. The later labs implement recursive Fibonacci and factorial routines alongside C driver programs.</p>
   <p class="project-links"><a href="/projects/assembly-labs/">Details</a><a href="https://github.com/dnoiro/assemblylabs">Code</a></p>
 </article>
 <article class="project-entry">
-  <h2><a href="/projects/utility-suite/">C++ command-line utilities</a></h2>
+  <h3><a href="/projects/utility-suite/">C++ command-line utilities</a></h3>
   <p class="meta">Programming project · C++, standard library</p>
   <p>A menu-driven program for arithmetic, statistics, and text exercises. Individual utilities are organized into implementation and header files, with input checks in the calculation and menu code.</p>
   <p class="project-links"><a href="/projects/utility-suite/">Details</a><a href="https://github.com/dnoiro/utility_line_capstone_1">Code</a></p>
 </article>
-<article class="project-entry">
-  <h2><a href="/projects/altium-mixedsim/">RC circuit Monte Carlo study</a></h2>
-  <p class="meta">Recreated course exercise · Altium Designer, MixedSim</p>
-  <p>Recreated an Altium course exercise to explore component-tolerance effects in a loaded RC circuit. Compared simulated output-voltage traces using Gaussian, uniform, and Altium’s Worst Case Monte Carlo distributions.</p>
-  <p class="project-links"><a href="/projects/altium-mixedsim/">Circuit and simulation plots</a></p>
-</article></section>
+</section>
 <section class="content-section" id="other-work" aria-labelledby="coursework">
   <h2 id="coursework">Other coursework</h2>
+  <article class="project-entry"><h3>Automated Connect-4 system</h3><p class="meta">Senior Design I · August–December 2024</p><p>Integrated an Arduino Mega, Simulink, and MATLAB image processing to detect game pieces and control servo and DC motors. The team’s gantry used 3D-printed components, SolidWorks design work, and PID-tuned DC motors for piece placement. I also worked on DFMEA risk analysis.</p></article>
   <article class="project-entry"><h3>Space Flight Design</h3><p>Our team developed a rocket project intended to collect temperature, pressure, and humidity measurements at different altitudes. The recording below shows the team’s launch.</p><figure class="launch-video"><video controls preload="none" poster="/videos/rocketlaunch-poster.jpg" aria-label="Team rocket launch recording"><source src="/videos/rocketlaunch.mp4" type="video/mp4">Your browser does not support this video. <a href="/videos/rocketlaunch.mp4">Download the recording.</a></video><figcaption><a href="/videos/rocketlaunch.mp4">Download launch recording</a></figcaption></figure></article>
   <article class="project-entry"><h3>MATLAB signal and system studies</h3><p>Coursework on transfer functions, impulse and step responses, Bode plots, Fourier transforms, convolution, and noisy signals.</p></article>
   <article class="project-entry"><h3>Transmission network graph model</h3><p>A concept study of transmission-network topology using PMU data, graph models, and discrete particle swarm optimization.</p></article>
 </section>
-
   </main>
   <footer class="site-footer shell">
     <span>Daniel Pacheco</span>
@@ -62,4 +78,3 @@
   </footer>
 </body>
 </html>
-

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Electrical engineering — Daniel Pacheco</title>
-  <meta name="description" content="Daniel Pacheco, electrical engineer at Santee Cooper and Clemson graduate. Projects in embedded C, x86 assembly, and C++.">
+  <title>PCB and FPGA projects — Daniel Pacheco</title>
+  <meta name="description" content="Daniel Pacheco, electrical engineer and Clemson graduate. PCB design in Altium, Verilog and FPGA labs in Vivado, and embedded hardware projects.">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://danielpacheco.dev/">
   <link rel="stylesheet" href="/styles.css">
@@ -26,41 +26,43 @@
 <section class="introduction" aria-labelledby="name">
   <div>
     <h1 id="name">Daniel Pacheco</h1>
-    <p>I’m an electrical engineer at Santee Cooper in Moncks Corner, South Carolina. I work on energy management systems, including SCADA telemetry, real-time displays, alarms, and historian data.</p>
-    <p>I received my B.S. in Electrical Engineering from Clemson University in May 2025. My interests are in FPGA/RTL design, embedded systems, and low-level programming.</p>
+    <p>I’m an electrical engineer focused on PCB design and FPGA development. I graduated from Clemson University in May 2025 and work as an Energy Management System Engineer at Santee Cooper.</p>
+    <p>My hardware work includes schematic and multilayer PCB layout in Altium for an Aeronix-sponsored senior design project. I’m also working through Verilog and Vivado labs, from testbench simulation to programming a PYNQ-Z2 board.</p>
+    <p>I’m interested in PCB design and entry-level FPGA/RTL roles.</p>
     <p class="profile-links"><a href="/resume/">Résumé</a><a href="https://github.com/dnoiro">GitHub</a><a href="/contact-form.html">Contact</a></p>
   </div>
   <img class="portrait" src="/IMG_0768.jpeg" alt="Daniel Pacheco" width="4375" height="3485" fetchpriority="high">
 </section>
 <section class="content-section" aria-labelledby="projects">
   <h2 id="projects">Selected projects</h2>
-  <article class="project-entry">
-  <h3><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h3>
-  <p class="meta">Coursework · C, GPIO, interrupts, PWM, SPI</p>
-  <p>C firmware for button and timer interrupts, LED control, and PWM output. A separate lab configures an SPI master to transmit data in response to a button interrupt.</p>
-  <p class="project-links"><a href="/projects/microcontroller-labs/">Details</a><a href="https://github.com/dnoiro/micro-final">Code</a></p>
+<article class="project-entry">
+  <h3><a href="/projects/embedded-pcb/">Embedded hardware PCB design</a></h3>
+  <p class="meta">Senior Design II · Aeronix / Clemson · Altium Designer</p>
+  <p>Schematic and multilayer PCB layout for assigned embedded hardware circuits: an SPI-connected IMU, a USB programming/debug interface with ESD protection, and a 44-pin expansion header.</p>
+  <p class="project-links"><a href="/projects/embedded-pcb/">Details</a></p>
 </article>
 <article class="project-entry">
-  <h3><a href="/projects/assembly-labs/">x86 assembly and C integration</a></h3>
-  <p class="meta">Coursework · x86 assembly, C</p>
-  <p>Six labs covering registers, addressing modes, control flow, and function calls. The later labs implement recursive Fibonacci and factorial routines alongside C driver programs.</p>
-  <p class="project-links"><a href="/projects/assembly-labs/">Details</a><a href="https://github.com/dnoiro/assemblylabs">Code</a></p>
+  <h3><a href="/projects/fpga-labs/">Verilog and FPGA labs</a></h3>
+  <p class="meta">Independent study · Verilog, Vivado, PYNQ-Z2</p>
+  <p>Digital logic and ROM-based designs with simulation testbenches. Board exercises include a multiplexer implemented through XDC constraints, synthesis, implementation, and bitstream programming.</p>
+  <p class="project-links"><a href="/projects/fpga-labs/">Details</a></p>
 </article>
 <article class="project-entry">
-  <h3><a href="/projects/utility-suite/">C++ command-line utilities</a></h3>
-  <p class="meta">Programming project · C++, standard library</p>
-  <p>A menu-driven program for arithmetic, statistics, and text exercises. Individual utilities are organized into implementation and header files, with input checks in the calculation and menu code.</p>
-  <p class="project-links"><a href="/projects/utility-suite/">Details</a><a href="https://github.com/dnoiro/utility_line_capstone_1">Code</a></p>
+  <h3><a href="/projects/altium-mixedsim/">RC circuit Monte Carlo study</a></h3>
+  <p class="meta">Recreated course exercise · Altium Designer, MixedSim</p>
+  <p>An Altium course exercise comparing the effect of component tolerances on a loaded RC circuit, using Gaussian, uniform, and Worst Case Monte Carlo simulations.</p>
+  <p class="project-links"><a href="/projects/altium-mixedsim/">Details</a></p>
 </article>
-  <p><a href="/projects/">Additional coursework</a></p>
+  <p><a href="/projects/">All projects and coursework</a></p>
 </section>
 <section class="content-section" aria-labelledby="experience">
   <h2 id="experience">Experience</h2>
-  <div class="dated-entry"><p class="date">June 2025–present</p><div><h3>Energy Management System Engineer · Santee Cooper</h3><p>I work with telemetry, displays, alarms, and system data used in transmission operations. I use Linux, Git, scripting, and database tools for engineering maintenance, troubleshooting, and historian data workflows.</p><p><a href="/aboutme/#experience">Experience and education</a></p></div></div>
+  <div class="dated-entry"><p class="date">June 2025–present</p><div><h3>Energy Management System Engineer · Santee Cooper</h3><p>I work on SCADA telemetry, alarms, and system models. My responsibilities include test planning and factory acceptance testing in Jama Connect, checkouts with relay/protection teams, and troubleshooting operational data. I also develop C and Python tools for engineering workflows.</p><p><a href="/aboutme/#experience">Experience and education</a></p></div></div>
 </section>
 <section class="content-section" aria-labelledby="study">
   <h2 id="study">Current study</h2>
-  <p>I’m studying Verilog, RTL testbenches, and FPGA implementation in Vivado using the PYNQ-Z2.</p>
+  <p>I’m continuing Altium design and simulation work alongside Verilog labs in Vivado. Recent work includes MixedSim component-tolerance analysis, ROM initialization, and FPGA simulation and implementation.</p>
+  <p><a href="/certificates/">PCB design and simulation training</a></p>
 </section>
   </main>
   <footer class="site-footer shell">
