@@ -6,6 +6,8 @@ Personal engineering website, served as static HTML by GitHub Pages at [danielpa
 
 Edit the root HTML pages and `styles.css` directly. The site has no package dependencies. Navigation uses ordinary links and wraps on small screens.
 
+The visual theme uses a black background, green accents, white text, and square pixel details. Pixelify Sans is self-hosted in `assets/fonts/` with its SIL Open Font License; it does not make a third-party font request. Print styles use black text on white paper with a standard résumé font.
+
 - `index.html`: biography, PCB and FPGA projects, experience, current study.
 - `projects/`: project descriptions and implementation notes.
 - `aboutme/`, `resume/`, `contact-form.html`: background, printable résumé, contact form.
