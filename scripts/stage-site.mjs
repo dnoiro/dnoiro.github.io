@@ -15,6 +15,8 @@ async function scan(dir) {
 }
 await scan(root);
 const files = new Set(pages);
+// Distribute the license alongside the self-hosted font in preview builds.
+files.add(path.join(root, 'assets', 'fonts', 'OFL.txt'));
 for (const page of pages) {
   const html = await readFile(page, 'utf8');
   for (const match of html.matchAll(/(?:href|src|poster)="([^"]+)"/g)) {

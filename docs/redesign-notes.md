@@ -41,3 +41,11 @@ The refresh uses the latest repository content, the supplied Hardware Engineer r
 PCB descriptions identify assigned circuits and the laboratory-assistant/senior-design context. No fabrication, production release, signal-integrity measurement, or board bring-up result is added. MixedSim remains a recreated course exercise with simulated results. Training titles follow the existing credential records; no completed Expert-level program credential is claimed.
 
 The public résumé uses professional background and project details without copying private phone, address, or internal infrastructure details from the source documents.
+
+## Retro visual theme — September 25, 2026
+
+The requested visual direction is now black, green, and white, with blocky lettering similar to Minecraft text. The shared stylesheet uses self-hosted Pixelify Sans, bright green headings and links, white body text, square buttons, and small pixel details. The existing content hierarchy, routes, project descriptions, contact behavior, and résumé remain in place. A matching pixel DP favicon and black browser theme color complete the theme.
+
+The font and SIL Open Font License are bundled in `assets/fonts/` and included in staged previews. The print stylesheet uses a standard font and black text on white paper.
+
+Validation: all 16 HTML pages passed local link and resource checks. The 14 content pages were inspected in Chromium at 1440, 768, 390, and 320 pixels wide, with no horizontal overflow, failed assets, or JavaScript errors. Desktop and mobile screenshots were reviewed; résumé print rendering confirmed white paper, black headings, and standard typography. No live contact message was sent.
