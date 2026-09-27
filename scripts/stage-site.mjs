@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'dist');
 const pages = [];
-const excluded = new Set(['.git', '.openai', 'dist', 'docs', 'scripts', 'node_modules']);
+const excluded = new Set(['.git', '.openai', 'archive', 'dist', 'docs', 'scripts', 'node_modules']);
 async function scan(dir) {
   for (const entry of await readdir(dir, {withFileTypes: true})) {
     if (excluded.has(entry.name)) continue;

@@ -3,6 +3,7 @@ description: Electrical engineering portfolio — digital hardware and embedded 
 url: https://danielpacheco.dev
 exclude:
   - README.md
+  - archive
   - docs
   - dist
   - scripts
