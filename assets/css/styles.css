@@ -102,6 +102,9 @@ td a { overflow-wrap: anywhere; }
 .launch-video { max-width: 600px; margin-top: 20px; }
 .launch-video video { width: 100%; border: 1px solid var(--line); }
 figcaption { margin-top: 10px; }
+.project-photo { max-width: 480px; margin: 28px auto 0; }
+.project-photo > a { display: block; }
+.project-photo img { width: 100%; border: 1px solid var(--line); }
 .section { margin-top: 40px; }
 .list-heading { font-size: 1.75rem; }
 .credential-list { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 28px; }
