@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Verilog and FPGA labs — Daniel Pacheco</title>
-  <meta name="description" content="Independent Verilog and Vivado labs covering digital logic, ROM initialization, testbench simulation, XDC constraints, and PYNQ-Z2 board programming.">
+  <meta name="description" content="Ongoing Verilog, SystemVerilog, and FPGA learning using PYNQ-Z2 and Artix-7 100T boards, structured labs, RTL simulation, and hardware implementation.">
   <meta name="theme-color" content="#000000">
   <link rel="canonical" href="https://danielpacheco.dev/projects/fpga-labs/">
   <link rel="preload" href="/assets/fonts/pixelify-sans.woff2" as="font" type="font/woff2" crossorigin>
@@ -27,9 +27,18 @@
 <header class="page-heading">
   <p class="breadcrumb"><a href="/projects/">Projects</a></p>
   <h1>Verilog and FPGA labs</h1>
-  <p class="meta">Independent study · 2026 · Verilog, AMD Vivado, PYNQ-Z2 / Zynq-7000</p>
+  <p class="meta">Independent study · 2026 · Verilog, SystemVerilog, AMD Vivado · PYNQ-Z2 + Artix-7 100T</p>
 </header>
-<p>I’m using small digital-design exercises to practice writing Verilog, checking behavior in simulation, and implementing designs on an FPGA. My recent labs cover combinational logic, ROM-based designs, and the Vivado implementation flow.</p>
+<p>I’m building my FPGA and digital-design skills through structured labs, technical textbooks, and hands-on hardware work. I use both the PYNQ-Z2 (Zynq-7000 SoC) and an Artix-7 100T (A7-100T) board to connect RTL concepts with simulation, FPGA implementation, and board-level testing. The exercises below document work I’ve completed as I continue developing these skills.</p>
+<section class="content-section" aria-labelledby="learning-approach">
+  <h2 id="learning-approach">Current learning approach</h2>
+  <p>I’m following the <a href="https://github.com/wei-nextlab/ParallelProgrammingLabs/tree/main/docs">Parallel Programming Labs</a> materials as a practical guide for PYNQ-Z2-based Verilog and FPGA/SoC exercises. I’m pairing those labs with two references:</p>
+  <ul>
+    <li><a href="https://www.packtpub.com/en-us/product/the-fpga-programming-handbook-9781805125594"><cite>The FPGA Programming Handbook</cite></a>, 2nd edition, by Frank Bruno and Guy Eschemann (ISBN-13: 978-1-80512-559-4), for RTL design, FPGA architecture, and implementation workflows.</li>
+    <li><a href="https://link.springer.com/book/10.1007/978-1-4614-0715-7"><cite>SystemVerilog for Verification</cite></a>, 3rd edition, by Chris Spear and Greg Tumbush, for testbench development, simulation, and verification methodology.</li>
+  </ul>
+  <p>My focus is to progress from individual logic blocks to more complete, verified FPGA designs, documenting simulation results and hardware behavior along the way.</p>
+</section>
 <section class="content-section" aria-labelledby="rtl">
   <h2 id="rtl">RTL and simulation</h2>
   <ul>
