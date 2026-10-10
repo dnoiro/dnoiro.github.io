@@ -12,7 +12,8 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 | `aboutme/`, `resume/`, `certificates/`, `miscellaneous/` | About, résumé, certificates, and personal pages |
 | `projects/` | PCB / FPGA overview and individual project pages |
 | `projects/pcb/` | PCB design and supporting circuit simulation |
-| `projects/supporting-work/` | Embedded/software projects and other coursework |
+| `projects/supporting-work/` | Embedded/software projects, MATLAB coursework and training |
+| `projects/engineering-software/` | Professional C/Linux/Git work and GitHub course certificates |
 | `certifcates/`, `hardware-projects/` | Redirects for older page URLs; retain these directories |
 | `assets/css/` | Shared stylesheet |
 | `assets/js/` | Contact form and résumé print behavior |
@@ -28,6 +29,8 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 `CNAME` and `_config.yml` configure the existing GitHub Pages domain and publication exclusions. `.openai/hosting.json` retains the separate private preview configuration.
 
 The main navigation prioritizes PCB and FPGA work alongside the résumé and contact page. Supporting coursework, experience, credentials, and personal content remain accessible through secondary pages and footer links.
+
+Credentials live beside their related work: PCB badges in `projects/pcb/`, MixedSim training in `projects/altium-mixedsim/`, Xcelium in `projects/fpga-labs/`, C++ in `projects/utility-suite/`, MathWorks in `projects/supporting-work/`, and GitHub in `projects/engineering-software/`. `certificates/` is a lightweight directory retaining older entry points.
 
 ## Editing
 
