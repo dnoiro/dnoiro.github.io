@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects — Daniel Pacheco</title>
-  <meta name="description" content="PCB design in Altium, Verilog and Vivado FPGA labs, circuit simulation, and embedded programming projects by Daniel Pacheco.">
+  <title>PCB and FPGA portfolio — Daniel Pacheco</title>
+  <meta name="description" content="Explore Daniel Pacheco’s two areas of hardware work: PCB design and FPGA / RTL development.">
   <meta name="theme-color" content="#000000">
   <link rel="canonical" href="https://danielpacheco.dev/projects/">
   <link rel="preload" href="/assets/fonts/pixelify-sans.woff2" as="font" type="font/woff2" crossorigin>
@@ -17,65 +17,43 @@
   <header class="site-header shell">
     <a class="site-name" href="/">Daniel Pacheco</a>
     <nav aria-label="Main navigation"><a href="/">Home</a>
-<a href="/projects/" aria-current="page">Projects</a>
-<a href="/aboutme/">About</a>
+<a href="/projects/pcb/">PCB</a>
+<a href="/projects/fpga-labs/">FPGA</a>
 <a href="/resume/">Résumé</a>
 <a href="/contact-form.html">Contact</a></nav>
   </header>
   <main class="shell" id="main" tabindex="-1">
-
-<header class="page-heading"><h1>Projects</h1><p>PCB design, FPGA labs, and embedded programming, with notes on my contributions and the work completed.</p></header>
-<section aria-labelledby="hardware-projects"><h2 id="hardware-projects">PCB and FPGA work</h2>
-<article class="project-entry">
-  <h3><a href="/projects/embedded-pcb/">Embedded hardware PCB design</a></h3>
-  <p class="meta">Senior Design II · Aeronix / Clemson · Altium Designer</p>
-  <p>Schematic and multilayer PCB layout for assigned embedded hardware circuits: an SPI-connected IMU, a USB programming/debug interface with ESD protection, and a 44-pin expansion header.</p>
-  <p class="project-links"><a href="/projects/embedded-pcb/">Details</a></p>
-</article>
-<article class="project-entry">
-  <h3><a href="/projects/fpga-labs/">Verilog and FPGA labs</a></h3>
-  <p class="meta">Independent study · Verilog, Vivado, PYNQ-Z2</p>
-  <p>Digital logic and ROM-based designs with simulation testbenches. Board exercises include a multiplexer implemented through XDC constraints, synthesis, implementation, and bitstream programming.</p>
-  <p class="project-links"><a href="/projects/fpga-labs/">Details</a></p>
-</article>
-<article class="project-entry">
-  <h3><a href="/projects/altium-mixedsim/">RC circuit Monte Carlo study</a></h3>
-  <p class="meta">Recreated course exercise · Altium Designer, MixedSim</p>
-  <p>An Altium course exercise comparing the effect of component tolerances on a loaded RC circuit, using Gaussian, uniform, and Worst Case Monte Carlo simulations.</p>
-  <p class="project-links"><a href="/projects/altium-mixedsim/">Details</a></p>
-</article>
-</section>
-<section class="content-section" aria-labelledby="software-projects"><h2 id="software-projects">Embedded and software coursework</h2>
-<article class="project-entry">
-  <h3><a href="/projects/microcontroller-labs/">Microcontroller peripheral labs</a></h3>
-  <p class="meta">Coursework · C, GPIO, interrupts, PWM, SPI</p>
-  <p>C firmware for button and timer interrupts, LED control, and PWM output. A separate lab configures an SPI master to transmit data in response to a button interrupt.</p>
-  <p class="project-links"><a href="/projects/microcontroller-labs/">Details</a><a href="https://github.com/dnoiro/micro-final">Code</a></p>
-</article>
-<article class="project-entry">
-  <h3><a href="/projects/assembly-labs/">x86 assembly and C integration</a></h3>
-  <p class="meta">Coursework · x86 assembly, C</p>
-  <p>Six labs covering registers, addressing modes, control flow, and function calls. The later labs implement recursive Fibonacci and factorial routines alongside C driver programs.</p>
-  <p class="project-links"><a href="/projects/assembly-labs/">Details</a><a href="https://github.com/dnoiro/assemblylabs">Code</a></p>
-</article>
-<article class="project-entry">
-  <h3><a href="/projects/utility-suite/">C++ command-line utilities</a></h3>
-  <p class="meta">Programming project · C++, standard library</p>
-  <p>A menu-driven program for arithmetic, statistics, and text exercises. Individual utilities are organized into implementation and header files, with input checks in the calculation and menu code.</p>
-  <p class="project-links"><a href="/projects/utility-suite/">Details</a><a href="https://github.com/dnoiro/utility_line_capstone_1">Code</a></p>
-</article>
+<header class="page-heading">
+  <h1>PCB &amp; FPGA portfolio</h1>
+  <p>Two areas of focus, with project details, my contributions, and completed work.</p>
+</header>
+<section id="hardware-projects" aria-label="Hardware work">
+<div class="focus-grid">
+  <article class="focus-card" aria-labelledby="pcb-title">
+    <p class="eyebrow">PCB DESIGN</p>
+    <h2 id="pcb-title"><a href="/projects/pcb/">Schematics &amp; board layout</a></h2>
+    <p class="meta">Altium Designer · Embedded interfaces</p>
+    <p>Aeronix-sponsored senior design: schematic and multilayer layout work for an SPI IMU, USB debug interface with ESD protection, and a 44-pin expansion header.</p>
+    <p class="project-links"><a href="/projects/embedded-pcb/">View PCB project</a><a href="/projects/pcb/">All PCB &amp; circuit work</a></p>
+  </article>
+  <article class="focus-card" aria-labelledby="fpga-title">
+    <p class="eyebrow">FPGA / RTL</p>
+    <h2 id="fpga-title"><a href="/projects/fpga-labs/">Digital logic &amp; FPGA labs</a></h2>
+    <p class="meta">Verilog · Vivado · PYNQ-Z2</p>
+    <p>Logic and ROM designs, a comparator testbench covering all 16 input combinations, and a multiplexer taken from pin constraints through bitstream programming and board checks.</p>
+    <p class="project-links"><a href="/projects/fpga-labs/">View FPGA work</a><a href="/projects/fpga-labs/#implementation">Board implementation</a></p>
+  </article>
+</div>
 </section>
 <section class="content-section" id="other-work" aria-labelledby="coursework">
-  <h2 id="coursework">Other coursework</h2>
-  <article class="project-entry"><h3>Automated Connect-4 system</h3><p class="meta">Senior Design I · August–December 2024</p><p>Integrated an Arduino Mega, Simulink, and MATLAB image processing to detect game pieces and control servo and DC motors. The team’s gantry used 3D-printed components, SolidWorks design work, and PID-tuned DC motors for piece placement. I also worked on DFMEA risk analysis.</p></article>
-  <article class="project-entry"><h3>Space Flight Design</h3><p>Our team developed a rocket project intended to collect temperature, pressure, and humidity measurements at different altitudes. The recording below shows the team’s launch.</p><figure class="launch-video"><video controls preload="none" poster="/assets/videos/rocket-launch-poster.jpg" aria-label="Team rocket launch recording"><source src="/assets/videos/rocket-launch.mp4" type="video/mp4">Your browser does not support this video. <a href="/assets/videos/rocket-launch.mp4">Download the recording.</a></video><figcaption><a href="/assets/videos/rocket-launch.mp4">Download launch recording</a></figcaption></figure></article>
-  <article class="project-entry"><h3>MATLAB signal and system studies</h3><p>Coursework on transfer functions, impulse and step responses, Bode plots, Fourier transforms, convolution, and noisy signals.</p></article>
-  <article class="project-entry"><h3>Transmission network graph model</h3><p>A concept study of transmission-network topology using PMU data, graph models, and discrete particle swarm optimization.</p></article>
+  <h2 id="coursework">Supporting work &amp; background</h2>
+  <p id="software-projects">Microcontroller labs, assembly, C++, and other engineering coursework are collected on the <a href="/projects/supporting-work/">supporting projects page</a>.</p>
+  <p class="project-links"><a href="/aboutme/#experience">Experience &amp; education</a><a href="/certificates/">Training &amp; credentials</a></p>
 </section>
   </main>
   <footer class="site-footer shell">
     <span>Daniel Pacheco</span>
-    <nav aria-label="Footer navigation"><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Personal</a></nav>
+    <nav aria-label="Footer navigation"><a href="/aboutme/">About</a><a href="/projects/supporting-work/">Supporting work</a><a href="/certificates/">Training</a><a href="https://github.com/dnoiro">GitHub</a></nav>
   </footer>
 </body>
 </html>

@@ -10,7 +10,9 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 | --- | --- |
 | `index.html`, `404.html`, `contact-form.html` | Home, error, and contact pages |
 | `aboutme/`, `resume/`, `certificates/`, `miscellaneous/` | About, résumé, certificates, and personal pages |
-| `projects/` | Project listing and individual project pages |
+| `projects/` | PCB / FPGA overview and individual project pages |
+| `projects/pcb/` | PCB design and supporting circuit simulation |
+| `projects/supporting-work/` | Embedded/software projects and other coursework |
 | `certifcates/`, `hardware-projects/` | Redirects for older page URLs; retain these directories |
 | `assets/css/` | Shared stylesheet |
 | `assets/js/` | Contact form and résumé print behavior |
@@ -24,6 +26,8 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 | `docs/` | Design and content history |
 
 `CNAME` and `_config.yml` configure the existing GitHub Pages domain and publication exclusions. `.openai/hosting.json` retains the separate private preview configuration.
+
+The main navigation prioritizes PCB and FPGA work alongside the résumé and contact page. Supporting coursework, experience, credentials, and personal content remain accessible through secondary pages and footer links.
 
 ## Editing
 

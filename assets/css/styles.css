@@ -72,6 +72,13 @@ main { padding-top: 52px; padding-bottom: 64px; }
 .profile-links a:hover { color: #000; background: #fff; border-color: #fff; text-decoration: none; }
 .profile-links a:active, .button:active { transform: translate(2px, 2px); box-shadow: none; }
 
+.focus-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.focus-card { display: flex; flex-direction: column; border: 2px solid var(--line); padding: 24px; }
+.focus-card:hover { border-color: var(--link); }
+.focus-card h2 { font-size: 1.5rem; margin-bottom: 12px; }
+.focus-card .meta { margin-bottom: 14px; }
+.focus-card .project-links { margin-top: auto; padding-top: 20px; }
+
 .content-section { margin-top: 42px; padding-top: 28px; border-top: 1px dashed var(--line); }
 .content-section > h2, main > section > h2, .list-heading { display: flex; align-items: baseline; gap: 12px; }
 .content-section > h2::before, main > section > h2::before, .list-heading::before { content: ""; flex: 0 0 8px; height: 8px; background: var(--link); box-shadow: 3px 3px 0 var(--pixel-shadow); }
@@ -151,6 +158,8 @@ form { max-width: 600px; }
   .site-header nav { gap: 8px 10px; }
 }
 @media (max-width: 650px) {
+  .focus-grid { grid-template-columns: 1fr; }
+  .focus-card { padding: 20px; }
   .shell { width: calc(100% - 40px); }
   .site-header { padding-top: 22px; padding-bottom: 20px; }
   .site-header nav { gap: 8px 5px; }

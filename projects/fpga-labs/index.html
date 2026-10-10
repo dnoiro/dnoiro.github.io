@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Verilog and FPGA labs — Daniel Pacheco</title>
-  <meta name="description" content="Ongoing Verilog, SystemVerilog, and FPGA learning using PYNQ-Z2 and Artix-7 100T boards, structured labs, RTL simulation, and hardware implementation.">
+  <meta name="description" content="Ongoing Verilog, SystemVerilog, and FPGA learning using PYNQ-Z2 and Nexys A7-100T boards, structured labs, RTL simulation, and hardware implementation.">
   <meta name="theme-color" content="#000000">
   <link rel="canonical" href="https://danielpacheco.dev/projects/fpga-labs/">
   <link rel="preload" href="/assets/fonts/pixelify-sans.woff2" as="font" type="font/woff2" crossorigin>
@@ -17,31 +17,22 @@
   <header class="site-header shell">
     <a class="site-name" href="/">Daniel Pacheco</a>
     <nav aria-label="Main navigation"><a href="/">Home</a>
-<a href="/projects/" aria-current="page">Projects</a>
-<a href="/aboutme/">About</a>
+<a href="/projects/pcb/">PCB</a>
+<a href="/projects/fpga-labs/" aria-current="page">FPGA</a>
 <a href="/resume/">Résumé</a>
 <a href="/contact-form.html">Contact</a></nav>
   </header>
   <main class="shell" id="main" tabindex="-1">
 
 <header class="page-heading">
-  <p class="breadcrumb"><a href="/projects/">Projects</a></p>
+  <p class="breadcrumb"><a href="/projects/">PCB &amp; FPGA portfolio</a></p>
   <h1>Verilog and FPGA labs</h1>
   <p class="meta">Independent study · 2026 · Verilog, SystemVerilog, AMD Vivado · PYNQ-Z2 + Nexys A7-100T</p>
 </header>
-<p>I’m building my FPGA and digital-design skills through structured labs, technical textbooks, and hands-on hardware work. I use a PYNQ-Z2 (Zynq-7000 SoC) for the Parallel Programming Labs and a Digilent Nexys A7-100T (Artix-7 FPGA) for exercises from The FPGA Programming Handbook. Both boards help me connect RTL concepts with simulation, FPGA implementation, and board-level testing. The exercises below document work I’ve completed as I continue developing these skills.</p>
-<section class="content-section" aria-labelledby="learning-approach">
-  <h2 id="learning-approach">Current learning approach</h2>
-  <p>I’m using three resources to structure my learning across RTL design, FPGA implementation, and verification:</p>
-  <ul>
-    <li><a href="https://github.com/wei-nextlab/ParallelProgrammingLabs/tree/main/docs">Parallel Programming Labs</a> — structured Verilog and FPGA/SoC exercises that I’m following on the PYNQ-Z2.</li>
-    <li><a href="https://www.packtpub.com/en-us/product/the-fpga-programming-handbook-9781805125594"><cite>The FPGA Programming Handbook</cite></a>, 2nd edition, by Frank Bruno and Guy Eschemann (ISBN-13: 978-1-80512-559-4) — my guide for RTL design, FPGA architecture, and implementation exercises on the Nexys A7-100T.</li>
-    <li><a href="https://link.springer.com/book/10.1007/978-1-4614-0715-7"><cite>SystemVerilog for Verification</cite></a>, 3rd edition, by Chris Spear and Greg Tumbush, for testbench development, simulation, and verification methodology.</li>
-  </ul>
-  <p>My focus is to progress from individual logic blocks to more complete, verified FPGA designs, documenting simulation results and hardware behavior along the way.</p>
-</section>
+<p>My completed labs cover Verilog logic and memory designs, simulation testbenches, and PYNQ-Z2 board implementation. I’m continuing my learning on both the PYNQ-Z2 and Digilent Nexys A7-100T.</p>
+<p class="project-links"><a href="#rtl">RTL &amp; simulation</a><a href="#implementation">Board implementation</a><a href="#learning-approach">Current learning</a></p>
 <section class="content-section" aria-labelledby="rtl">
-  <h2 id="rtl">RTL and simulation</h2>
+  <h2 id="rtl">Completed RTL and simulation work</h2>
   <ul>
     <li>Developed Verilog modules for decoders, priority encoders, adders, and ROM-based comparators.</li>
     <li>Initialized ROM contents with <code>$readmemb</code> and explored Vivado’s Block Memory Generator IP and COE initialization.</li>
@@ -53,6 +44,16 @@
   <p>For a 2-to-1 multiplexer, I assigned PYNQ-Z2 pins with XDC constraints, ran synthesis and implementation, generated a bitstream, and programmed the board. I verified the switch-to-LED behavior on the hardware.</p>
   <p>I also built a Zynq processing-system design in Vivado IP Integrator, generated the HDL wrapper and bitstream, and used the PYNQ-Z2 setup to control board LEDs.</p>
 </section>
+<section class="content-section" aria-labelledby="learning-approach">
+  <h2 id="learning-approach">Current learning approach</h2>
+  <p>I’m using three resources to structure my learning across RTL design, FPGA implementation, and verification:</p>
+  <ul>
+    <li><a href="https://github.com/wei-nextlab/ParallelProgrammingLabs/tree/main/docs">Parallel Programming Labs</a> — structured Verilog and FPGA/SoC exercises that I’m following on the PYNQ-Z2.</li>
+    <li><a href="https://www.packtpub.com/en-us/product/the-fpga-programming-handbook-9781805125594"><cite>The FPGA Programming Handbook</cite></a>, 2nd edition, by Frank Bruno and Guy Eschemann (ISBN-13: 978-1-80512-559-4) — my guide for RTL design, FPGA architecture, and implementation exercises on the Nexys A7-100T.</li>
+    <li><a href="https://link.springer.com/book/10.1007/978-1-4614-0715-7"><cite>SystemVerilog for Verification</cite></a>, 3rd edition, by Chris Spear and Greg Tumbush, for testbench development, simulation, and verification methodology.</li>
+  </ul>
+  <p>My focus is to progress from individual logic blocks to more complete, verified FPGA designs, documenting simulation results and hardware behavior along the way.</p>
+</section>
 <section class="content-section" aria-labelledby="related">
   <h2 id="related">Related work</h2>
   <p>My <a href="/projects/microcontroller-labs/">microcontroller labs</a> cover peripheral configuration, interrupts, PWM, and SPI in C. My <a href="/projects/embedded-pcb/">senior design PCB work</a> covers the schematic and layout side of embedded interfaces.</p>
@@ -61,7 +62,7 @@
   </main>
   <footer class="site-footer shell">
     <span>Daniel Pacheco</span>
-    <nav aria-label="Footer navigation"><a href="https://github.com/dnoiro">GitHub</a><a href="/certificates/">Certificates</a><a href="/miscellaneous/">Personal</a></nav>
+    <nav aria-label="Footer navigation"><a href="/aboutme/">About</a><a href="/projects/supporting-work/">Supporting work</a><a href="/certificates/">Training</a><a href="https://github.com/dnoiro">GitHub</a></nav>
   </footer>
 </body>
 </html>
