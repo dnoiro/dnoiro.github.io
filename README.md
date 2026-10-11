@@ -12,7 +12,9 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 | `aboutme/`, `resume/`, `certificates/`, `miscellaneous/` | About, résumé, certificates, and personal pages |
 | `projects/` | PCB / FPGA overview and individual project pages |
 | `projects/pcb/` | PCB design and supporting circuit simulation |
-| `projects/supporting-work/` | Embedded/software projects, MATLAB coursework and training |
+| `projects/supporting-work/` | Directory of additional engineering projects |
+| `projects/fpga/` | FPGA / RTL overview and related training |
+| `projects/matlab/` | MATLAB / Simulink project details and training |
 | `projects/engineering-software/` | Professional C/Linux/Git work and GitHub course certificates |
 | `certifcates/`, `hardware-projects/` | Redirects for older page URLs; retain these directories |
 | `assets/css/` | Shared stylesheet |
@@ -30,7 +32,7 @@ The site is plain HTML, CSS, and JavaScript, with no package dependencies or bui
 
 The main navigation prioritizes PCB and FPGA work alongside the résumé and contact page. Supporting coursework, experience, credentials, and personal content remain accessible through secondary pages and footer links.
 
-Credentials live beside their related work: PCB badges in `projects/pcb/`, MixedSim training in `projects/altium-mixedsim/`, Xcelium in `projects/fpga-labs/`, C++ in `projects/utility-suite/`, MathWorks in `projects/supporting-work/`, and GitHub in `projects/engineering-software/`. `certificates/` is a lightweight directory retaining older entry points.
+Credentials live beside their related work: PCB badges in `projects/pcb/`, MixedSim training in `projects/altium-mixedsim/`, Xcelium in `projects/fpga/`, C++ in `projects/utility-suite/`, MathWorks in `projects/matlab/`, and GitHub in `projects/engineering-software/`. `certificates/` is a lightweight directory retaining older entry points.
 
 ## Editing
 
@@ -56,3 +58,5 @@ Open `http://localhost:8000`. The checker validates local page links, fragments,
 `node scripts/stage-site.mjs` assembles the public pages and referenced assets into `dist/` for the existing Sites project. Validate that output with `node scripts/check-site.mjs dist`. Authored pages and `assets/` remain the source of truth; do not edit generated `dist/` files. The staging directory is ignored by Git, and archives are excluded from both staging and GitHub Pages.
 
 See `docs/redesign-notes.md` for earlier design and content decisions and `archive/README.md` for retained historical files.
+
+See `docs/usability-notes.md` for navigation rules and the usability guidance behind the current organization.

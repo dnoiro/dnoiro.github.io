@@ -57,7 +57,7 @@ button, summary { cursor: pointer; }
 .site-header nav, .site-footer nav { display: flex; flex-wrap: wrap; gap: 8px; }
 .site-header nav a { padding: 5px 10px; font-size: 1.125rem; color: var(--text); border: 1px solid transparent; }
 .site-header nav a:hover { border-color: var(--link); color: var(--link); text-decoration: none; }
-.site-header nav a[aria-current="page"] { color: #000; background: var(--link); border-color: var(--link); box-shadow: 3px 3px 0 var(--pixel-shadow); }
+.site-header nav a[aria-current="page"], .site-header nav a[aria-current="true"] { color: #000; background: var(--link); border-color: var(--link); box-shadow: 3px 3px 0 var(--pixel-shadow); }
 main { padding-top: 52px; padding-bottom: 64px; }
 
 .introduction { display: grid; grid-template-columns: minmax(0, 1fr) 176px; align-items: start; gap: 44px; }
@@ -75,7 +75,7 @@ main { padding-top: 52px; padding-bottom: 64px; }
 .focus-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
 .focus-card { display: flex; flex-direction: column; border: 2px solid var(--line); padding: 24px; }
 .focus-card:hover { border-color: var(--link); }
-.focus-card h2 { font-size: 1.5rem; margin-bottom: 12px; }
+.focus-card h2, .focus-card h3 { font-size: 1.5rem; margin-bottom: 12px; }
 .focus-card .meta { margin-bottom: 14px; }
 .focus-card .project-links { margin-top: auto; padding-top: 20px; }
 
@@ -218,4 +218,15 @@ form { max-width: 600px; }
   li + li { margin-top: 4px; }
   a { color: #000; }
   h2, h3 { break-after: avoid; }
+}
+
+/* Project orientation and scan-friendly facts; reuse the established theme. */
+.project-summary { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 28px; margin: 0 0 28px; padding: 20px; border: 1px solid var(--line); }
+.project-summary dt { font-weight: 600; }
+.project-summary dd { margin: 4px 0 0; }
+.page-return { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--line); }
+.page-return a { display: inline-block; padding-block: 8px; text-decoration: underline; }
+.breadcrumb { overflow-wrap: anywhere; }
+@media (max-width: 650px) {
+  .project-summary { grid-template-columns: 1fr; gap: 14px; }
 }
