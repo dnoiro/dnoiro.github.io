@@ -107,6 +107,7 @@ th, td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid v
 th { color: var(--link); font-weight: 600; }
 td a { overflow-wrap: anywhere; }
 .launch-video { max-width: 600px; margin-top: 20px; }
+.launch-video.featured-launch { max-width: none; }
 .launch-video video { width: 100%; border: 1px solid var(--line); }
 figcaption { margin-top: 10px; }
 .project-photo { max-width: 480px; margin: 28px auto 0; }
