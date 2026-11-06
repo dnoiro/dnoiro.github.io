@@ -122,6 +122,8 @@ figcaption { margin-top: 10px; }
 .credential p, .credential a { font-size: 1.0625rem; }
 .credential p { color: var(--muted); }
 .credential a { display: inline-block; margin-top: 6px; }
+.homepage-training .credential-list { margin-top: 24px; }
+.homepage-training .credential img { width: 85px; height: 85px; flex-shrink: 0; }
 details { border-bottom: 1px solid var(--line); padding: 18px 0; }
 summary { color: var(--text); font-size: 1.125rem; }
 summary::marker { color: var(--link); }
